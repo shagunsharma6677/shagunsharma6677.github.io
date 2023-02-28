@@ -1,11 +1,29 @@
-import React from 'react'
+import React from "react";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (
-    <div id="projects">
-        <h1>Projects</h1>
+    <div
+      className=".project-card"
+      style={{ backgroundColor: "#222222", paddingTop: "100px" }}
+      id="projects"
+    >
+      <h1 style={{ color: "#68D372", fontSize: "60px", textAlign: "center" }}>
+        Projects
+      </h1>
 
-        <div class="project-card">
+      <ProjectCard />
+      <br />
+
+      <ProjectCard />
+      <br />
+
+      <ProjectCard />
+      <br />
+      <ProjectCard />
+      <br />
+
+      {/* <div class="project-card">
             <img src="" alt="" />
             <div class="project-title">project-title</div>
             <div class="project-description">project-description</div>
@@ -45,9 +63,9 @@ const Projects = () => {
             <div class="project-github-link">project-github-link</div>
             <div class="project-deployed-link">project-deployed-link</div>
             
-        </div>
+        </div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

@@ -1,0 +1,12 @@
+.our-button {
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 4px;
+  border: 2px solid #68d372;
+  color: white;
+  /* background-color: #68d372; */
+  width: max-content;
+  text-transform: none;
+  font-weight: 400;
+  cursor: pointer;
+}

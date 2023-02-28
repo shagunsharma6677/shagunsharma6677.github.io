@@ -1,0 +1,140 @@
+.maindiv {
+  border: solid black;
+  max-width: 80%;
+  margin: auto;
+}
+#contact{
+  height: auto;
+  padding: 50px;
+}
+
+
+.test {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.side1 {
+  width: 30%;
+  height: 50%;
+}
+.sdiv > input[type="text"] {
+  width: 98%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;;
+}
+.sdiv > label {
+  font-size: 13px;
+}
+.message1 {
+  height: 70px;
+}
+
+.side2 {
+  width: 20%;
+}
+
+.side2 > img {
+  width: 100%;
+}
+
+.test {
+  display: flex;
+}
+
+.maindiv > h1,
+.message {
+  text-align: center;
+}
+.footer1 {
+  text-align: center;
+}
+.side3,
+.side4,
+.footer2 {
+  display: inline-flex;
+}
+.side3,
+.side4 {
+  width: 15%;
+  text-align: left;
+  font-size: 13px;
+}
+.side3 > ul,
+.side4 > ul {
+  list-style-type: none;
+  padding: 20px;
+  
+}
+.side3 > ul>li>h3,
+.side4 > ul>li>h3{
+    margin-bottom: 15px;
+}
+.side3 > ul>li,
+.side4 > ul>li{
+    margin-bottom: 10px;
+}
+
+.footer2 {
+  width: 10%;
+  font-size: 10px;
+}
+
+.message {
+  margin-bottom: 2%;
+  
+  
+}
+.message > button {
+  display: inline-flex;
+  background-color: #7bc880;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px 20px;
+  
+  
+}
+.span1 {
+  color: #7bc880;
+}
+.message>button>p{
+    margin-top: 5px;
+}
+
+.topdiv {
+  text-align: center;
+  color: #7bc880;
+  margin-top: 160px;
+ 
+}
+.sdiv{
+    padding: 10px;
+}
+.line {
+    
+  border-left: 4px solid #7bc880;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-top: 60px;
+  
+  
+
+}
+.img1 {
+  width: 35px;
+  margin: auto;
+  padding-right: 7px;
+}
+.topdiv>h3{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .side2{
+        display: none;
+    }
+  }

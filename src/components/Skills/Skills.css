@@ -1,0 +1,99 @@
+/* #skills-wrapper {
+  background-color: greenyellow;
+  max-width: 80%;
+  border: 1px solid black;
+}
+
+.skills-stacks {
+  display: flex;
+  border: 1px solid green;
+  padding: 0 300px;
+
+  height: auto;
+  padding: 100px;
+}
+.skills-stacks > div {
+  margin: auto;
+}
+.skill-heading {
+  border: 1px solid blue;
+  padding: 50px;
+}
+.skill-heading > h1 {
+  font-size: 50px;
+  border: 1px solid blue;
+  text-align: center;
+}
+.git-skills {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+.git-skills > div {
+    border: 1px solid black;
+
+    margin: auto;
+   
+
+} */
+
+#skills {
+  background-color: #222222;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  /* margin-bottom: 40px; */
+}
+#skills > h2, .git-details > h1 {
+  /* border: 1px solid red; */
+  text-align: center;
+  color: #68d372;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 70px;
+  color:#68D372;
+}
+.skills-prog-cont > h2 {
+  color: #68d372;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.skills-wrapper {
+  background-color: #222222;
+  max-width: 80%;
+  margin: auto;
+
+  padding: 30px;
+}
+.skills-prog-cont {
+  padding: 50px;
+}
+.skills-prog-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+.skills-prog-div > div {
+  margin: 20px;
+  border: 1px solid blue;
+}
+.skills-prog-div > div > img {
+  width: 70px;
+}
+.git-star-cont{
+  /* margin-bottom: 40px; */
+}
+.git-details{
+  margin-bottom: 40px;
+}
