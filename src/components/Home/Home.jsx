@@ -1,10 +1,12 @@
 import React from "react";
 import "./Home.css"
 import Button from '../Button/Button'
+import Wave from "react-wavify"
 
 const Home = () => {
   return (
     <div id="home" className='home-wrapper'>
+
       <button id='resume-button-2'></button>
       <div className='h-wrap-cont'>
         <div className='home-left'>
@@ -28,11 +30,12 @@ const Home = () => {
                 benefits.
               </p>
               <div className='home-buttons'>
-                <div>
-                  <Button />
+                <div style={{ cursor: "pointer" }}>
+                  <Button title="Download CV" />
                 </div>
-
-                <Button bg={false} />
+                <div style={{ cursor: "pointer" }}>
+                  <Button bg={false} title="Contact Me" />
+                </div>
               </div>
               <div className='h-scroller'>Scroll-Down</div>
             </div>
@@ -41,12 +44,13 @@ const Home = () => {
         </div>
         <div className='home-right'>
           <div className='h-right-wrapper'>
-            <img className='profile-pic home-img' src="https://avatars.githubusercontent.com/u/108183568?v=4" alt="" width={"350px"} />
+            <img className='profile-pic home-img' src="https://thumbs.gfycat.com/ColorlessBitesizedKob-max-1mb.gif" alt="" />
 
           </div>
         </div>
 
       </div>
+
 
     </div>
   )

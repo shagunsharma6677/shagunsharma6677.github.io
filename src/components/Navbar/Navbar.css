@@ -23,6 +23,9 @@
 .nav-center {
   display: flex;
 }
+.nav-center > li {
+  cursor: pointer;
+}
 .nav-flex,
 .nav-center > li {
   font-size: 18px;

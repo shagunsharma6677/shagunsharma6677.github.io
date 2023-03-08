@@ -1,10 +1,11 @@
 .project-wrapper {
   /* border: 1px solid red; */
-  padding: 10px;padding-top: 50px;
+  padding: 10px;
+  padding-top: 50px;
   width: 100vw;
   background-color: #222222;
   /* height: 70vh; */
-  height: 550px;
+  height: 650px;
 }
 .proj-cont {
   /* border: 1px solid blue;`` */
@@ -23,7 +24,7 @@
   transition: all 0.5s ease;
   /* height: 600px; */
   /* background: url("https://jainex.vercel.app/static/media/pimg1.ce667dcc72252cb0abda.png") */
-    /* no-repeat left/cover; */
+  /* no-repeat left/cover; */
 }
 .proj-left:hover {
   opacity: 10;
@@ -82,8 +83,17 @@
   line-height: 28px;
   color: white;
 }
+.project-tech-stack {
+  display: flex;
+}
+.deploy-links {
+  display: flex;
+}
+.project-tech-stack > div {
+  display: inline;
+}
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1150px) {
   .proj-cont {
     flex-direction: column;
     height: 600px;
@@ -104,7 +114,7 @@
     /* height: 370px; */
     height: fit-content;
   }
-  .proj-des{
+  .proj-des {
     padding: 20px;
   }
   .proj-right {
@@ -135,4 +145,49 @@
     align-items: center;
     justify-content: center;
   } */
+}
+@media only screen and (max-width: 1150px) {
+  .project-tech-stack {
+    display: flex;
+  }
+  .project-tech-stack > div {
+    display: inline;
+  }
+  .deploy-links {
+    display: flex;
+  }
+  .deploy-links > div {
+    display: inline;
+  }
+  .proj-right{
+    width: 90%;
+  }
+}
+
+
+@media only screen and (max-width: 580px) {
+  .project-tech-stack {
+    display: flex;
+  }
+  .project-tech-stack > div {
+    display: inline;
+  }
+  .deploy-links {
+    display: flex;
+  }
+  .deploy-links > div {
+    display: inline;
+  }
+  .project-title{
+    font-size: 26px;
+  }
+  .proj-right-cont{
+    padding: 2px;
+  }
+  .proj-des{
+    padding: 10px;
+  }
+  .proj-right{
+    width: 100%;
+  }
 }

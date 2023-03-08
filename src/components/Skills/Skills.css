@@ -1,99 +1,105 @@
-/* #skills-wrapper {
-  background-color: greenyellow;
-  max-width: 80%;
-  border: 1px solid black;
-}
 
-.skills-stacks {
-  display: flex;
-  border: 1px solid green;
-  padding: 0 300px;
-
-  height: auto;
-  padding: 100px;
-}
-.skills-stacks > div {
-  margin: auto;
-}
-.skill-heading {
-  border: 1px solid blue;
-  padding: 50px;
-}
-.skill-heading > h1 {
-  font-size: 50px;
-  border: 1px solid blue;
-  text-align: center;
-}
-.git-skills {
-  background-color: greenyellow;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  justify-content: center;
-}
-.git-skills > div {
-    border: 1px solid black;
-
-    margin: auto;
-   
-
-} */
 
 #skills {
   background-color: #222222;
-  height: auto;
-  display: flex;
+  min-height: 100vh;
+ 
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  /* border: 1px solid red; */
+  flex-direction: column; */
+  border: 1px solid red;
+  padding: 100px;
+  box-sizing: border-box;
+
   /* margin-bottom: 40px; */
 }
-#skills > h2, .git-details > h1 {
+
+#skills > h2,
+.git-details > h1 {
   /* border: 1px solid red; */
   text-align: center;
   color: #68d372;
   font-size: 28px;
   line-height: 33.6px;
   font-weight: 600;
-  margin-bottom: 30px;
   font-size: 70px;
-  color:#68D372;
+  color: #68d372;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+
+
 }
 .skills-prog-cont > h2 {
   color: #68d372;
   font-size: 28px;
   line-height: 33.6px;
   font-weight: 600;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .skills-wrapper {
   background-color: #222222;
   max-width: 80%;
+  height: auto;
   margin: auto;
+  border: 1px solid red;
+  margin-bottom: 50px;
 
-  padding: 30px;
+  /* padding: 30px; */
 }
 .skills-prog-cont {
   padding: 50px;
+z-index: 10;
+  border: 1px solid green;
 }
 .skills-prog-div {
   display: flex;
+  /* border: 1px solid blue; */
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 60px;
   align-items: center;
   justify-content: space-around;
+  z-index: 10;
 }
-.skills-prog-div > div {
-  margin: 20px;
-  border: 1px solid blue;
-}
+
 .skills-prog-div > div > img {
   width: 70px;
 }
-.git-star-cont{
+.git-star-cont {
   /* margin-bottom: 40px; */
 }
-.git-details{
-  margin-bottom: 40px;
+.git-details {
+  /* margin-bottom: 40px; */
+}
+.git-state-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.git-state-div > div{
+  margin-bottom: 50px;
+}
+.git-state-div > div:nth-child(2) > img{
+  margin-right: 40px;
+ 
+}
+
+.skills-card {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  padding: 10px;
+  text-align: center;
+  color: #6e6e6e;
+  font-size: 17px;
+  line-height: 22.5px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1330px) {
+  body {
+    background-color: lightblue;
+  }
 }

@@ -10,10 +10,11 @@ const About = () => {
                     <h1>About</h1>
                 </div>
                 <div className='about-l-r'>
-                    {/* <div className='about-wrap-left'>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJVKZeQOzKKga-hBvODhy18lGZWbqNYiGX5A&usqp=CAU" alt="" />
+                    <div className='about-wrap-left'>
+                        <img src="https://avatars.githubusercontent.com/u/108183568?v=4" alt="" />
+                    
 
-                    </div> */}
+                    </div>
                     <div  className='about-wrap-right'>
                         <p id="user-detail-intro"> A Passionate MERN stack developer with strong problem-solving
                             abilities, proficient in JavaScript,MongoDB, React.js, and

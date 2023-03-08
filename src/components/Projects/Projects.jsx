@@ -1,27 +1,26 @@
 import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import "./Projects.css"
 
 const Projects = () => {
   return (
-    <div
-      className=".project-card"
-      style={{ backgroundColor: "#222222", paddingTop: "100px" }}
-      id="projects"
-    >
-      <h1 style={{ color: "#68D372", fontSize: "60px", textAlign: "center" }}>
-        Projects
-      </h1>
+    <div className="project-card" id="projects">
+      <h1>Projects</h1>
+      <div className="proj-card-wrapper">
+        <div>
+          <ProjectCard />
+        </div>
+        <div>
+          <ProjectCard />
+        </div>
+        <div>
+          <ProjectCard />
+        </div>
+        <div>
+          <ProjectCard />
+        </div>
 
-      <ProjectCard />
-      <br />
-
-      <ProjectCard />
-      <br />
-
-      <ProjectCard />
-      <br />
-      <ProjectCard />
-      <br />
+      </div>
 
       {/* <div class="project-card">
             <img src="" alt="" />

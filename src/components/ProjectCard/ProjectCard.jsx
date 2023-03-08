@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProjectCard.css"
 
+
 const ProjectCard = () => {
     return (
         <>
@@ -24,11 +25,13 @@ const ProjectCard = () => {
 
                             </div>
                             <div className='project-tech-stack'>
-                                <div>HTML</div>
+                                <div>
+                                    <img src="" alt="" />
+                                </div>
                                 <div>CSS</div>
                             </div>
 
-                            <div>
+                            <div className="deploy-links">
                                 <div className="project-github-link">Github Link</div>
                                 <div className="project-deployed-link">Deployed</div>
                             </div>

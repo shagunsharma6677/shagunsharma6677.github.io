@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Skills.css"
+import cont from "./cont.jpeg"
+
 
 const Skills = () => {
     return (<>
@@ -8,52 +10,98 @@ const Skills = () => {
 
             <div className='skills-wrapper'>
                 <div className='skills-prog-cont'>
-                    <h2>Programming Skills</h2>
+                    {/* <h2>Programming Skills</h2> */}
                     <div className='skills-prog-div'>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/html-5.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/css-3.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/react-js.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/node-js.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/js.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/express-js.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/git.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/js.png")} alt="" />
+                            <p>Html</p>
                         </div>
-
-
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/express-js.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/git.png")} alt="" />
+                            <p>Html</p>
+                        </div>
                     </div>
                 </div>
+            </div>
 
+            <div className='skills-wrapper'>
                 <div className='skills-prog-cont'>
-                    <h2>Programming Skills</h2>
+                    {/* <h2>Programming Skills</h2> */}
                     <div className='skills-prog-div'>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/html-5.png")} alt="" />
+                            <p>Html</p>
                         </div>
                         <div className="skills-card">
-                            <img className="skills-card-img" src="https://lakshanrukantha.github.io/img/icon/html-5.png" alt="" />
+                            <img className="skills-card-img" src={require("./icon/css-3.png")} alt="" />
+                            <p>Html</p>
                         </div>
-
-
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/react-js.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/node-js.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/js.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/express-js.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/git.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/js.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/express-js.png")} alt="" />
+                            <p>Html</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src={require("./icon/git.png")} alt="" />
+                            <p>Html</p>
+                        </div>
                     </div>
                 </div>
-
-
             </div>
 
             <div className='git-details'>
@@ -62,25 +110,18 @@ const Skills = () => {
 
             <div className='git-stat-wrapper'>
                 <div className='git-star-cont'>
-                    <div  style={{marginBottom:"30px"}}>
-                        <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677" alt="GitHub Commits Graph" />
-
-                    </div>
-                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                        <div  style={{marginRight:"50px"}}>
-                            <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=shagunsharma6677" alt="jainex's GitHub stats" />
+                    <div className='git-state-div'>
+                        <div>
+                            <img className="react-activity-calendar" src={cont} width={"1400px"} />
                         </div>
-                        <div  >
+                        <div>
+                            <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677" alt="GitHub Commits Graph" />
+                            <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=shagunsharma6677" alt="jainex's GitHub stats" />
                             <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shagunsharma6677" alt='random' />
                         </div>
-
-
-
+                        <div>
+                        </div>
                     </div>
-
-
-
-
                 </div>
 
             </div>

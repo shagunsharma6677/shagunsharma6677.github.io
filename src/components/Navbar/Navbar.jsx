@@ -15,36 +15,30 @@ const Navbar = () => {
                     <ul className={state === true ? "nav-center" : "nav-center active"} >
                         <li>
                             <Link className="nav-link home" to="home" smooth={true} duration={500} offset={200}>Home</Link>
-
                         </li>
                         <li>
-                            <Link className="nav-link about" to="about" smooth={true} duration={500} offset={200}>About</Link>
-
+                            <Link className="nav-link about" to="about" smooth={true} duration={500} offset={75}>About</Link>
                         </li>
                         <li>
-                            <Link className="nav-link skills" to="skills" smooth={true} duration={500} offset={200}>Skills</Link>
-
+                            <Link className="nav-link skills" to="skills" smooth={true} duration={500} offset={-20}>Skills</Link>
+                        </li>
+                        <li>
+                            <Link className="nav-link projects" to="projects" smooth={true} duration={500} offset={0}>Projects</Link>
                         </li>
                         <li>
                             <Link className="nav-link contact" to="contact" smooth={true} duration={500} offset={200}>Contact</Link>
-
-
                         </li>
-                        <li>
-                        <Link className="nav-link projects" to="projects" smooth={true} duration={500} offset={200}>Projects</Link>
-                          
-                        </li>
-                        <li>
+                        {/* <li>
                             <a href="/#" className="nav-link resume">Resume</a>
                         </li>
                         <li>
-                            {/* <button id='resume-button-1'>Resume</button> */}
+                            <button id='resume-button-1'>Resume</button>
                             <a href="/#" >Resume</a>
-                        </li>
+                        </li> */}
                     </ul>
 
                     <div id='resume-button-1' className='nav-right .nav-link resume'>
-                        <Button />
+                        <Button title="Download CV"/>
                     </div>
 
                     <div onClick={() => setState(!state)} className="hamb">
