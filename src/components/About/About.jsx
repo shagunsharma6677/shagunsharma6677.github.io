@@ -24,6 +24,7 @@ const About = () => {
                             where I can utilize and enhance my skills for mutual
                             benefits.
                         </p>
+                        
 
                     </div>
                     

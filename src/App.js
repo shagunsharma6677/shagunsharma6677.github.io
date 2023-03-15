@@ -24,6 +24,8 @@ import boostrapIcon from "./assets/bootstrap-icon.svg";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Sidebar from "./components/Sidebar/Sidebar";
+
 
 function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -279,6 +281,7 @@ function App() {
         />
 
         <Navbar />
+        {/* <Sidebar/> */}
         <Home />
         <HomeSvg dir="down" />
         <About />

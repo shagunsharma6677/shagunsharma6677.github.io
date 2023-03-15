@@ -1,16 +1,53 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./Contact.css"
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     return (
         <div id="contact">
-            
+            <div className='contact-heading'>
+                <div>Contact</div>
+                <div>Call or Write Anything</div>
+            </div>
+            <div className='contact-content'>
+                <div className='form-div' >
+                    <form className='form' ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" name="user_name" />
+                        <label>Email</label>
+                        <input type="email" name="user_email" />
+                        <label>Message</label>
+                        <textarea name="message" />
+                        <input type="submit" value="Send" />
+                    </form>
+                </div>
+                <div className='contact-img'>
+                    <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" alt=""  />
+                </div>
+
+            </div>
+
+
+
             {/* <div id="contact-github"> contact-github</div>
             <div id="contact-linkedin"> contact-linkedin</div>
             <div id="contact-phone"> contact-phone</div>
             <div id="contact-email">contact-email</div> */}
 
-            <div className="maindiv">
+            {/* <div className="maindiv">
                 <div className="line">
                     
                 </div>
@@ -60,7 +97,7 @@ const Contact = () => {
                         <h3>Get in Touch</h3>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

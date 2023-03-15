@@ -45,7 +45,7 @@ a {
   overflow-x: hidden;
 }
 #tsparticles {
-  position: absolute;
+  /* position: absolute; */
   /* left: 0;
   top: 0; */
   width: 100%;

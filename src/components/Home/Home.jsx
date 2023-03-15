@@ -2,18 +2,24 @@ import React from "react";
 import "./Home.css"
 import Button from '../Button/Button'
 import Wave from "react-wavify"
+import Sidebar from "../Sidebar/Sidebar";
+
+
 
 const Home = () => {
+  const myAppRef = document.querySelector('.scrollable-div')
   return (
     <div id="home" className='home-wrapper'>
-
+      <Sidebar />
       <button id='resume-button-2'></button>
       <div className='h-wrap-cont'>
         <div className='home-left'>
           <div className='h-left-wrapper'>
             <div className='h-title-head'>
+
               <span>Hi There</span>
               <br />
+           
               <span>I am <span id="user-detail-name">Shagun Sharma</span> </span>
               <br />
               <span>A FULL-Stack Developer</span>

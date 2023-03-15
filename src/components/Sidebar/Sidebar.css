@@ -1,0 +1,16 @@
+.sidebar-div{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    /* border: 1px solid red; */
+    padding: 25px;
+    
+
+}
+.sidebar-div > a {
+    margin-bottom: 70px;
+}
+.sidebar-div > a > img{
+    width: 40px;
+}
