@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
 
+ 
+
 const Contact = () => {
 
     const form = useRef();
@@ -19,8 +21,8 @@ const Contact = () => {
     return (
         <div id="contact">
             <div className='contact-heading'>
-                <div>Contact</div>
-                <div>Call or Write Anything</div>
+                <h2>Contact</h2>
+                {/* <div>Call or Write Anything</div> */}
             </div>
             <div className='contact-content'>
                 <div className='form-div' >
@@ -30,8 +32,10 @@ const Contact = () => {
                         <label>Email</label>
                         <input type="email" name="user_email" />
                         <label>Message</label>
-                        <textarea name="message" />
-                        <input type="submit" value="Send" />
+                        <textarea  name="message" />
+                        {/* <input className='send_btn' type="submit" value="Send" /> */}
+                        <button type='submit' value ="send" style={{ backgroundColor:  "#68d372",cursor:"pointer" }} className='our-button'>Send</button>
+
                     </form>
                 </div>
                 <div className='contact-img'>

@@ -11,6 +11,9 @@
 
   /* text-align: center; */
 }
+#about{
+  background-color: white;
+}
 .about-heading {
   /* border: 1px solid green; */
   text-align: center;
@@ -50,4 +53,40 @@
   line-height: 40px;
   /* color: white; */
   color: #222222;
+}
+@media only screen and (max-width: 1092px) {
+  .about-l-r{
+    flex-direction: column;
+  }
+.about-wrap-right  {
+  width: fit-content;
+  padding: 15px;
+}
+.about-wrap-right > p{
+  width: 78%;
+  text-align:justify;
+}
+.about-wrap-left > img{
+  width: 80%;
+
+}
+}
+
+@media only screen and (max-width: 750px) {
+  .about-wrap-right > p{
+    width: 100%;
+    text-align:justify;
+  }
+  .about-wrap-right {
+    
+    padding: 10px;
+    
+  }
+  #about{
+  padding-top: 100px;
+
+  /* background-color: white; */
+  }
+
+ 
 }

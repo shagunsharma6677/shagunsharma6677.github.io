@@ -6,7 +6,7 @@ import "./Sidebar.css"
 
 const Sidebar = () => {
     return (
-        <div style={{height:"100vh"}} className='sidebar-div'>
+        <div style={{height:"100vh",backgroundColor:"#222222"}} className='sidebar-div'>
             <a href="">
 
             </a>

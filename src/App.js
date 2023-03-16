@@ -288,6 +288,7 @@ function App() {
         <HomeSvg dir="up" />
         <Skills />
         <Projects />
+        <HomeSvg dir="down" />
         <Contact />
       </div>
     </div>

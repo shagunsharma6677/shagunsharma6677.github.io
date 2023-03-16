@@ -1,7 +1,10 @@
 #projects {
   background-color: #222222;
   padding-top: 100px;
+  margin: auto;
+  
   /* border: 1px solid yellow; */
+  /* margin-top: 20px; */
 }
 #projects > h1 {
   color: #68d372;

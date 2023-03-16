@@ -2,7 +2,6 @@ import React from "react";
 import "./Skills.css";
 import cont from "./cont.jpeg";
 
-
 const Skills = () => {
   return (
     <>
@@ -156,10 +155,9 @@ const Skills = () => {
         <div className="git-stat-wrapper">
           <div className="git-star-cont">
             <div className="git-state-div">
+              <div></div>
               <div>
-              
-              </div>
-              <div>
+                <div></div>
                 {/* <img id="github-streak-stats" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shagunsharma6677&theme=github_dark" alt="jainex's GitHub stats" /> */}
                 <div>
                   <img

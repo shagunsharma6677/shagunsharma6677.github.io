@@ -1,183 +1,115 @@
-/* .maindiv {
-  border: solid black;
-  max-width: 80%;
-  margin: auto;
-}
-#contact{
+
+#contact {
   height: auto;
   padding: 50px;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  background-color: white;
+  /* background-color: aquamarine; */
 }
-
-
-.test {
-  display: inline-flex;
-  justify-content: center;
-  margin-bottom: 2%;
-}
-
-.side1 {
-  width: 30%;
-  height: 50%;
-}
-.sdiv > input[type="text"] {
-  width: 98%;
-  border: none;
-  border-bottom: 1px solid black;
-  margin-bottom: 10px;;
-}
-.sdiv > label {
-  font-size: 13px;
-}
-.message1 {
-  height: 70px;
-}
-
-.side2 {
-  width: 20%;
-}
-
-.side2 > img {
-  width: 100%;
-}
-
-.test {
+.form-div {
   display: flex;
+  /* background-color: aqua; */
+  /* border: 1px solid black; */
+  /* padding: 50px; */
 }
-
-.maindiv > h1,
-.message {
+.contact-heading {
+  /* border: 1px solid red; */
   text-align: center;
+  height: auto;
 }
-.footer1 {
-  text-align: center;
+.contact-heading > h2 {
+  font-weight: 800;
+  line-height: 57.6px;
+  font-size: 48px;
+  color: #68d372;
+  padding: 10px;
+  position: relative;
+  /* text-decoration: underline; */
 }
-.side3,
-.side4,
-.footer2 {
-  display: inline-flex;
-}
-.side3,
-.side4 {
-  width: 15%;
-  text-align: left;
-  font-size: 13px;
-}
-.side3 > ul,
-.side4 > ul {
-  list-style-type: none;
-  padding: 20px;
-  
-}
-.side3 > ul>li>h3,
-.side4 > ul>li>h3{
-    margin-bottom: 15px;
-}
-.side3 > ul>li,
-.side4 > ul>li{
-    margin-bottom: 10px;
-}
-
-.footer2 {
-  width: 10%;
-  font-size: 10px;
-}
-
-.message {
-  margin-bottom: 2%;
-  
-  
-}
-.message > button {
-  display: inline-flex;
-  background-color: #7bc880;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  padding: 10px 20px;
-  
-  
-}
-.span1 {
-  color: #7bc880;
-}
-.message>button>p{
-    margin-top: 5px;
-}
-
-.topdiv {
-  text-align: center;
-  color: #7bc880;
-  margin-top: 160px;
- 
-}
-.sdiv{
-    padding: 10px;
-}
-.line {
-    
-  border-left: 4px solid #7bc880;
-  height: 100px;
+/* .contact-heading > h2::before {
+  content: "";
   position: absolute;
-  left: 50%;
-  margin-top: 60px;
-  
-  
+  height: 5px;
+  border-bottom: 3px solid #222222;
 
+  top: 50%;
+  left: 58%;
+  width: 350px;
 }
-.img1 {
-  width: 35px;
+.contact-heading > h2::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 3px solid #222222;
+
+  top: 50%;
+  right: 58%;
+  width: 350px;
+} */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
   margin: auto;
-  padding-right: 7px;
+  width: 550px;
+  background-color: white;
+  /* padding: 50px; */
 }
-.topdiv>h3{
-    margin-bottom: 10px;
+.form > input {
+  background-color: white;
+  border-bottom: 1px solid grey;
 }
-@media only screen and (max-width: 1000px) {
-    .side2{
-        display: none;
-    }
-  } */
+.form > textarea {
+  border-bottom: 1px solid grey;
+}
+.form > * {
+  margin-bottom: 10px;
+  /* border: 1px solid black; */
+}
+.send_btn {
+  border: 1px solid red;
+  width: fit-content;
+  margin: auto;
+  padding: 12px 44px;
+}
+.contact-content {
+  display: flex;
+  border: 1px solid black;
+  /* background-color: rgb(178, 153, 200); */
+  justify-content: center;
+  margin: auto;
+  gap: 70px;
+  padding: 80px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.contact-img > img {
+  width: 350px;
+}
+.our-button {
+  margin: auto;
+  /* border: 1px solid rgb(115, 131, 115); */
+}
+
+@media only screen and (max-width: 1212px) {
   #contact{
-    height: auto;
-    padding: 150px;
-    border: 1px solid red;
-  }
-  .form-div{
-    display: flex;
-    /* background-color: aqua; */
-    /* border: 1px solid black; */
-    /* padding: 50px; */
-    
- 
-  }
-  .form{
-    display: flex;
-    flex-direction: column;
-    /* border: 1px solid black; */
-    margin: auto;
-    width: 550px;
-    /* padding: 50px; */
-  }
-  .form > input{
-    background-color: white;
-
-  }
-  .form > *{
-    margin-bottom: 10px;
-    /* border: 1px solid black; */
-    
-
+    padding: 30px;
   }
   .contact-content{
-    display: flex;
-    border: 1px solid black;
-    /* background-color: rgb(178, 153, 200); */
-    justify-content: center;
-    margin: auto;
-    gap: 100px;
-    padding: 70px;
+    padding: 30px;
+    gap: 15px;
   }
-  .contact-img > img{
-    width: 350px;
+ 
+}
+@media only screen and (max-width: 1012px) {
+  .contact-img {
+    display: none;
   }
+  .form{
+    width: 400px;
+  }
+
+ 
+}

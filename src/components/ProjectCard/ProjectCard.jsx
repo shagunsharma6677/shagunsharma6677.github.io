@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCard.css"
+import Button from "../Button/Button.jsx"
 
 
 const ProjectCard = () => {
@@ -25,15 +26,24 @@ const ProjectCard = () => {
 
                             </div>
                             <div className='project-tech-stack'>
-                                <div>
-                                    <img src="" alt="" />
-                                </div>
-                                <div>CSS</div>
+                                <i style={{ fontSize: "50px" }} class="devicon-react-original colored"></i>
+                                <i style={{ fontSize: "50px" }} class="devicon-redux-original colored"></i>
+                                <i style={{ fontSize: "50px" }} class="devicon-mongodb-plain colored"></i>
+                                <i style={{ fontSize: "50px" }} class="devicon-bootstrap-plain colored"></i>
                             </div>
 
                             <div className="deploy-links">
-                                <div className="project-github-link">Github Link</div>
-                                <div className="project-deployed-link">Deployed</div>
+                                <div>
+                                    <Button bg={false} title="Deploy Link" />
+                                </div>
+                                <div>
+
+                                    <Button bg={false} title="Github" />
+
+                                </div>
+
+                                {/* <div className="project-github-link">Github Link</div> */}
+                                {/* <div className="project-deployed-link">Deployed</div> */}
                             </div>
                         </div>
 

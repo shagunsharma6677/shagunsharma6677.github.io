@@ -73,7 +73,7 @@
   /* border: 1px solid red; */
   justify-content: flex-start;
   background-color: rgb(41, 39, 39);
-  padding: 50px;
+  padding: 30px;
 }
 .proj-des > p {
   text-align: start;
@@ -88,10 +88,18 @@
 }
 .deploy-links {
   display: flex;
+  /* justify-content: end; */
+  gap:40px;
 }
 .project-tech-stack > div {
   display: inline;
 }
+
+.project-tech-stack > *{
+  margin-left: 20px;
+}
+
+
 
 @media only screen and (max-width: 1150px) {
   .proj-cont {
