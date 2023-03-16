@@ -5,6 +5,8 @@
   /* border: 1px solid red; */
   box-sizing: border-box;
   background-color: white;
+  /* margin-top: 100px; */
+  padding-top: 100px;
   /* background-color: aquamarine; */
 }
 .form-div {

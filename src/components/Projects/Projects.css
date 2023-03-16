@@ -2,6 +2,8 @@
   background-color: #222222;
   padding-top: 100px;
   margin: auto;
+  margin-bottom: -60px;
+
   
   /* border: 1px solid yellow; */
   /* margin-top: 20px; */
@@ -18,7 +20,7 @@
 }
 .proj-card-wrapper {
   /* border: 1px solid green; */
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .proj-card-wrapper > div {
   /* border: 1px solid blue; */
@@ -26,13 +28,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ /* padding-bottom: 75px; */
 }
 @media only screen and (min-width: 850px) {
     .proj-card-wrapper > div{
-        min-height: 70vh;
+      min-height: 70vh;
          /* border: 1px solid green; */
+         margin-bottom: 60px;
        
 
+    }
+    .proj-card-wrapper{
+      /* margin-bottom: 50px; */
     }
    
   }

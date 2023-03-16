@@ -5,12 +5,12 @@ import cont from "./cont.jpeg";
 const Skills = () => {
   return (
     <>
-      <div style={{ marginTop: "-20px" }} id="skills">
+      <div id="skills">
         <h2>Skills</h2>
 
         <div className="skills-wrapper">
           <div className="skills-prog-cont">
-            <h2 style={{ marginBottom: "20px" }}>Languages & Frameworks</h2>
+            <h2 >Languages & Frameworks</h2>
             <div className="skills-prog-div">
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/html-5.png")} alt="" /> */}
@@ -95,7 +95,7 @@ const Skills = () => {
 
         <div className="skills-wrapper">
           <div className="skills-prog-cont">
-            <h2 style={{ marginBottom: "20px" }}>Technologies & Libraries</h2>
+            <h2>Technologies & Libraries</h2>
             <div className="skills-prog-div">
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/html-5.png")} alt="" /> */}
@@ -159,7 +159,7 @@ const Skills = () => {
               <div>
                 <div></div>
                 {/* <img id="github-streak-stats" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shagunsharma6677&theme=github_dark" alt="jainex's GitHub stats" /> */}
-                <div>
+                <div className="stat-divs">
                   <img
                     id="github-top-langs"
                     src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shagunsharma6677&theme=github_dark"

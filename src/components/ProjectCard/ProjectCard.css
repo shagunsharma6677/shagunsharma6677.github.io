@@ -5,7 +5,7 @@
   width: 100vw;
   background-color: #222222;
   /* height: 70vh; */
-  height: 650px;
+  height: 550px;
 }
 .proj-cont {
   /* border: 1px solid blue;`` */
@@ -107,7 +107,7 @@
     height: 600px;
   }
   .project-wrapper {
-    height: 550px;
+    height: auto;
   }
   .proj-right-cont > h3 {
     font-size: 20px;
@@ -164,11 +164,17 @@
   .deploy-links {
     display: flex;
   }
+  .proj-des > p {
+    text-align: justify;
+  }
   .deploy-links > div {
     display: inline;
   }
   .proj-right{
     width: 90%;
+  }
+  .project-wrapper{
+    margin-bottom: 80px;
   }
 }
 
@@ -197,5 +203,11 @@
   }
   .proj-right{
     width: 100%;
+  }
+  .proj-right {
+  margin-top: 0px;
+  }
+  .project-wrapper{
+    margin-bottom: 50px;
   }
 }
