@@ -56,12 +56,26 @@
   /* padding: 0px 40px; */
 }
 .h-left-wrapper > div > span {
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 3.75rem;
+  font-weight: 850;
   text-align: start;
   margin-bottom: 0px;
   color: #68d372;
   /* word-spacing: 0px; */
+}
+.typewriter{
+  display: flex;
+  align-items: center;
+}
+.typewriter > div{
+  font-size: 3.0rem;
+  font-weight: 800;
+  text-align: start;
+  margin-bottom: 0px;
+  color: white;
+/* border: 1px solid red; */
+width: 500px;
+height: 150px;
 }
 .h-left-wrapper > .h-title-down > p {
   font-size: 16px;

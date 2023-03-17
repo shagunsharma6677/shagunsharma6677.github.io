@@ -3,6 +3,7 @@ import "./Home.css"
 import Button from '../Button/Button'
 import Wave from "react-wavify"
 import Sidebar from "../Sidebar/Sidebar";
+import Typewriter from "typewriter-effect";
 
 
 
@@ -17,12 +18,22 @@ const Home = () => {
           <div className='h-left-wrapper'>
             <div className='h-title-head'>
 
-              <span>Hi There</span>
+              <span style={{color:"white"}}>Hi There</span>
               <br />
-           
-              <span>I am <span id="user-detail-name">Shagun Sharma</span> </span>
-              <br />
-              <span>A FULL-Stack Developer</span>
+ 
+              <span>I am <span id="user-detail-name">Shagun</span> </span>
+              <div className="typewriter">
+                <Typewriter
+                  options={{
+                    strings: ["A Full Stack Web Developer", "A Traveller", "A MERN Stack Developer"],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50
+                  }}
+                />
+              </div>
+
+              {/* <span>A FULL-Stack Developer</span> */}
 
             </div>
             <div id="user-detail-intro" className='h-title-down'>
