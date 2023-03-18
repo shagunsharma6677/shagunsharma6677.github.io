@@ -9,6 +9,12 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
   const myAppRef = document.querySelector('.scrollable-div')
+  const handlePDF = () => {
+    const link = document.createElement('a');
+    link.href = "./Download/Shagun-Sharma-Resume.pdf";
+    link.download = 'Shagun-Sharma-Resume.pdf';
+    link.click();
+  }
   return (
     <div id="home" className='home-wrapper'>
       <Sidebar />
@@ -18,9 +24,9 @@ const Home = () => {
           <div className='h-left-wrapper'>
             <div className='h-title-head'>
 
-              <span style={{color:"white"}}>Hi There</span>
+              <span style={{ color: "white" }}>Hi There</span>
               <br />
- 
+
               <span>I am <span id="user-detail-name">Shagun</span> </span>
               <div className="typewriter">
                 <Typewriter
@@ -48,7 +54,11 @@ const Home = () => {
               </p>
               <div className='home-buttons'>
                 <div style={{ cursor: "pointer" }}>
-                  <Button title="Download CV" />
+                  <a id="resume-link-2" href="https://drive.google.com/drive/u/0/folders/1M4nqwtI7_zxN_uOKWnDoDhcb8oBVvy-Z" rel="noopener noreferrer" download target="_blank">
+
+                    <button onClick={handlePDF} style={{ backgroundColor: "#68d372", cursor: "pointer" }} className='our-button'>Resume</button>
+
+                  </a>
                 </div>
                 <div style={{ cursor: "pointer" }}>
                   <Button bg={false} title="Contact Me" />

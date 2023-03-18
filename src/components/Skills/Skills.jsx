@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import cont from "./cont.jpeg";
+import HomeSvg from "../Home/HomeSvg";
 
 const Skills = () => {
   return (
@@ -17,77 +18,77 @@ const Skills = () => {
 
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-express-original colored"
+                  className="devicon-express-original colored skills-card-img"
                 ></i>
-                <p>Express.js</p>
+                <p class="skills-card-name">Express.js</p>
               </div>
 
               <div className="skills-card">
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-react-original colored"
+                  className="devicon-react-original colored skills-card-img"
                 ></i>
-                <p>React.js</p>
+                <p class="skills-card-name">React.js</p>
               </div>
               <div className="skills-card">
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-nodejs-plain colored"
+                  className="devicon-nodejs-plain colored skills-card-img"
                 ></i>
-                <p>Node.js</p>
+                <p class="skills-card-name">Node.js</p>
               </div>
               <div className="skills-card">
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-javascript-plain colored"
+                  className="devicon-javascript-plain colored skills-card-img"
                 ></i>
-                <p>Javascript</p>
+                <p class="skills-card-name">Javascript</p>
               </div>
               <div className="skills-card">
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-css3-plain colored"
+                  className="devicon-css3-plain colored skills-card-img"
                 ></i>
-                <p>Css</p>
+                <p class="skills-card-name">Css</p>
               </div>
               <div className="skills-card">
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-html5-plain colored"
+                  className="devicon-html5-plain colored skills-card-img"
                 ></i>
-                <p>Html</p>
+                <p class="skills-card-name">Html</p>
               </div>
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/js.png")} alt="" /> */}
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-mongodb-plain colored"
+                  className="devicon-mongodb-plain colored skills-card-img"
                 ></i>
-                <p>Mongo Db</p>
+                <p class="skills-card-name">Mongo Db</p>
               </div>
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/express-js.png")} alt="" /> */}
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-tailwindcss-original-wordmark colored"
+                  className="devicon-tailwindcss-original-wordmark colored skills-card-img"
                 ></i>
-                <p>Tailwind</p>
+                <p class="skills-card-name">Tailwind</p>
               </div>
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/git.png")} alt="" /> */}
 
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-redux-original colored"
+                  className="devicon-redux-original colored skills-card-img"
                 ></i>
-                <p>Redux</p>
+                <p class="skills-card-name">Redux</p>
               </div>
               <div className="skills-card">
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-typescript-plain colored"
+                  className="devicon-typescript-plain colored skills-card-img"
                 ></i>
-                <p>Typescript</p>
+                <p class="skills-card-name">Typescript</p>
               </div>
             </div>
           </div>
@@ -101,91 +102,99 @@ const Skills = () => {
                 {/* <img className="skills-card-img" src={require("./icon/html-5.png")} alt="" /> */}
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-npm-original-wordmark colored"
+                  className="devicon-npm-original-wordmark colored skills-card-img"
                 ></i>
-                <p>Npm</p>
+                <p class="skills-card-name">Npm</p>
               </div>
               <div className="skills-card">
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-git-plain colored"
+                  className="devicon-git-plain colored skills-card-img"
                 ></i>
-                <p>Git</p>
+                <p class="skills-card-name">Git</p>
               </div>
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/react-js.png")} alt="" /> */}
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-babel-plain colored"
+                  className="devicon-babel-plain colored skills-card-img"
                 ></i>
-                <p>Babel</p>
+                <p class="skills-card-name">Babel</p>
               </div>
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/node-js.png")} alt="" /> */}
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-heroku-original colored"
+                  className="devicon-heroku-original colored skills-card-img"
                 ></i>
-                <p>Heroku</p>
+                <p class="skills-card-name">Heroku</p>
               </div>
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/js.png")} alt="" /> */}
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-materialui-plain colored"
+                  className="devicon-materialui-plain colored skills-card-img"
                 ></i>
-                <p>Material UI</p>
+                <p class="skills-card-name">Material UI</p>
               </div>
               <div className="skills-card">
                 {/* <img className="skills-card-img" src={require("./icon/express-js.png")} alt="" /> */}
                 <i
                   style={{ fontSize: "75px" }}
-                  class="devicon-bootstrap-plain colored"
+                  className="devicon-bootstrap-plain colored skills-card-img"
                 ></i>
-                <p>Bootstrap</p>
+                <p class="skills-card-name">Bootstrap</p>
               </div>
             </div>
           </div>
         </div>
+        <div className="github-maindiv">
 
-        <div className="git-details">
-          <h1>Github Details</h1>
-        </div>
 
-        <div className="git-stat-wrapper">
-          <div className="git-star-cont">
-            <div className="git-state-div">
-              <div></div>
-              <div>
+          <HomeSvg dir="down" />
+          <div className="git-details">
+            <h1>Github Details</h1>
+          </div>
+
+          <div className="git-stat-wrapper">
+            <div className="git-star-cont">
+              <div className="git-state-div">
                 <div></div>
-                {/* <img id="github-streak-stats" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shagunsharma6677&theme=github_dark" alt="jainex's GitHub stats" /> */}
-                <div className="stat-divs">
-                  <img
-                    id="github-top-langs"
-                    src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shagunsharma6677&theme=github_dark"
-                    alt="random"
-                  />
-                  <img
-                    src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=shagunsharma6677&theme=github_dark"
-                    alt=""
-                  />
-                  <img
-                    src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shagunsharma6677&theme=github_dark&utcOffset=8"
-                    alt=""
-                  />
-                </div>
                 <div>
+                  <div></div>
+                  {/* <img id="github-streak-stats" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shagunsharma6677&theme=github_dark" alt="jainex's GitHub stats" /> */}
+                  <div className="stat-divs">
+                    <img
+                      id="github-top-langs"
+                      src="https://github-readme-stats.vercel.app/api/top-langs/?username=shagunsharma6677"
+                      alt="random"
+                    />
+                  
+                    <img
+                    class="react-activity-calendar"
+                      src="https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=gotham"
+                      alt=""
+                    />
+                
+                  </div>
+                  <div className="stat-card-skills">
                   <img
-                    style={{ width: "100%" }}
-                    id="github-stats-card"
-                    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shagunsharma6677&theme=github_dark"
-                    alt="GitHub Commits Graph"
-                  />
+                     id="github-streak-stats" 
+                      src="https://github-readme-streak-stats.herokuapp.com?user=shagunsharma6677"
+                      alt=""
+                    />
+                    <img
+                      id="github-stats-card"
+                      src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677"
+                      alt="GitHub Commits Graph"
+                    />
+                  </div>
                 </div>
+                <div></div>
               </div>
-              <div></div>
             </div>
           </div>
+          <HomeSvg dir="up" />
         </div>
       </div>
     </>

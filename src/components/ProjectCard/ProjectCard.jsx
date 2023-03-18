@@ -26,17 +26,17 @@ const ProjectCard = () => {
 
                             </div>
                             <div className='project-tech-stack'>
-                                <i style={{ fontSize: "50px" }} class="devicon-react-original colored"></i>
-                                <i style={{ fontSize: "50px" }} class="devicon-redux-original colored"></i>
-                                <i style={{ fontSize: "50px" }} class="devicon-mongodb-plain colored"></i>
-                                <i style={{ fontSize: "50px" }} class="devicon-bootstrap-plain colored"></i>
+                                <i style={{ fontSize: "50px" }} className="devicon-react-original colored"></i>
+                                <i style={{ fontSize: "50px" }} className="devicon-redux-original colored"></i>
+                                <i style={{ fontSize: "50px" }} className="devicon-mongodb-plain colored"></i>
+                                <i style={{ fontSize: "50px" }} className="devicon-bootstrap-plain colored"></i>
                             </div>
 
                             <div className="deploy-links">
-                                <div>
+                                <div className="project-deployed-link">
                                     <Button bg={false} title="Deploy Link" />
                                 </div>
-                                <div>
+                                <div className="project-github-link">
 
                                     <Button bg={false} title="Github" />
 

@@ -4,6 +4,12 @@ import Button from '../Button/Button'
 import { Link } from "react-scroll"
 
 const Navbar = () => {
+    const handlePDF = () => {
+        const link = document.createElement('a');
+        link.href = "./Download/Shagun-Sharma-Resume.pdf";
+        link.download = 'Shagun-Sharma-Resume.pdf';
+        link.click();
+    }
     const [state, setState] = useState(false)
     return (
         <>
@@ -37,10 +43,11 @@ const Navbar = () => {
                         </li> */}
                     </ul>
 
-                    <div id='resume-button-1' className='nav-right .nav-link resume'>
-                        <Button title="Download CV"/>
+                    <div className='nav-right '>
+                        <a className='nav-link resume' target='_blank' href="https://drive.google.com/drive/u/0/folders/1M4nqwtI7_zxN_uOKWnDoDhcb8oBVvy-Z" rel="noopener noreferrer">
+                            <button onClick={handlePDF} id='resume-button-1' style={{ backgroundColor: "#222222", cursor: "pointer" }} className='our-button'>Download CV</button>
+                        </a>
                     </div>
-
                     <div onClick={() => setState(!state)} className="hamb">
                         {state === true ? <i className="fa fa-times" aria-hidden="true"></i> : <i className="fa-solid fa-bars"></i>
                         }

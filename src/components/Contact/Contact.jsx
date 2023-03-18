@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
 
- 
+
 
 const Contact = () => {
 
@@ -32,19 +32,37 @@ const Contact = () => {
                         <label>Email</label>
                         <input type="email" name="user_email" />
                         <label>Message</label>
-                        <textarea  name="message" />
+                        <textarea name="message" />
                         {/* <input className='send_btn' type="submit" value="Send" /> */}
-                        <button type='submit' value ="send" style={{ backgroundColor:  "#68d372",cursor:"pointer" }} className='our-button'>Send</button>
+                        <button type='submit' value="send" style={{ backgroundColor: "#68d372", cursor: "pointer" }} className='our-button'>Send</button>
 
                     </form>
                 </div>
                 <div className='contact-img'>
-                    <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" alt=""  />
+                    <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" alt="" />
                 </div>
 
             </div>
 
+            <div style={{width:"70%",margin:"auto",display:"flex", justifyContent:"end",gap:"50px"}}>
 
+
+                <a id="contact-linkedin" href="https://www.linkedin.com/in/shagun-s-84b0a6238/" rel="noopener noreferrer" target="_blank">
+                    <i style={{ fontSize: "45px", color: "#68D372" }} className="devicon-linkedin-plain"></i>
+                </a>
+
+                <a id="contact-github" href="https://github.com/shagunsharma6677" rel="noopener noreferrer" target="_blank">
+                    <i style={{ fontSize: "45px", color: "#68D372" }} className="devicon-github-original colored"></i>
+                </a>
+
+                <a id="contact-phone" href="https://api.whatsapp.com/send?phone=9760657327&text=Send20%a20%quote" rel="noopener noreferrer" target='_blank'>
+                    9760657327
+                </a>
+                <a id="contact-email" href="">
+                    shagunsharma6677@gmail.com
+                </a>
+
+            </div>
 
             {/* <div id="contact-github"> contact-github</div>
             <div id="contact-linkedin"> contact-linkedin</div>

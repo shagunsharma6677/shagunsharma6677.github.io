@@ -63,19 +63,19 @@
   color: #68d372;
   /* word-spacing: 0px; */
 }
-.typewriter{
+.typewriter {
   display: flex;
   align-items: center;
 }
-.typewriter > div{
-  font-size: 3.0rem;
+.typewriter > div {
+  font-size: 3rem;
   font-weight: 800;
   text-align: start;
   margin-bottom: 0px;
   color: white;
-/* border: 1px solid red; */
-width: 500px;
-height: 150px;
+  /* border: 1px solid red; */
+  width: 500px;
+  height: 150px;
 }
 .h-left-wrapper > .h-title-down > p {
   font-size: 16px;
@@ -95,10 +95,11 @@ height: 150px;
 
 .home-buttons {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content:start; */
   /* border: 1px solid red; */
+  gap: 30px;
   margin: auto;
-  width: 100%;
+  width: 80%;
   align-items: center;
   padding: 10px;
   /* justify-content: center; */
@@ -163,14 +164,12 @@ height: 150px;
   .h-left-wrapper > div > span {
     /* font-size: 32px; */
     font-size: calc(1.375rem + 1.5vw);
-    
   }
   .home-left {
     width: fit-content;
   }
   .profile-pic {
     width: 280px;
-    
   }
 }
 
@@ -185,10 +184,8 @@ height: 150px;
     padding: 10px;
     /* margin-top: 30px; */
   }
-  
+
   .h-left-wrapper > div > span {
     font-size: calc(2rem + 1.5vw);
   }
 }
-
-
