@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "8695f775d085c45e073c",
-    "url": "/static/css/main.ff10348f.chunk.css"
+    "revision": "2da0998435f306d3c576",
+    "url": "/static/css/main.1936b00e.chunk.css"
   },
   {
-    "revision": "8695f775d085c45e073c",
-    "url": "/static/js/main.8695f775.chunk.js"
+    "revision": "2da0998435f306d3c576",
+    "url": "/static/js/main.2da09984.chunk.js"
   },
   {
     "revision": "72de945a7fa5317e65ff",
     "url": "/static/js/1.72de945a.chunk.js"
   },
   {
-    "revision": "d7a8ab5a22c47099d956",
-    "url": "/static/js/2.d7a8ab5a.chunk.js"
+    "revision": "67b14825d194d46326dc",
+    "url": "/static/js/2.67b14825.chunk.js"
   },
   {
     "revision": "1003782132d2bd7c61cd",
     "url": "/static/js/runtime~main.10037821.js"
+  },
+  {
+    "revision": "8e94cc97545207690736034de7e13c3e",
+    "url": "/static/media/calender.8e94cc97.jpeg"
   },
   {
     "revision": "5c9507dd10d4d4e659834e64c6dfa177",
@@ -68,11 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/bootstrap-icon.03c84bcc.svg"
   },
   {
-    "revision": "e3edd05046f987a39f85d132a5e9f34c",
-    "url": "/static/media/cont.e3edd050.jpeg"
-  },
-  {
-    "revision": "ceb689f15ff5066c37a0a9f4be646a3f",
+    "revision": "159fc712c70d3bf36f304a457761fde9",
     "url": "/index.html"
   }
 ];
