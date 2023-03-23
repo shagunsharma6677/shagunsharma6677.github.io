@@ -17,6 +17,10 @@
 .sidebar-div > a > img{
     width: 40px;
 }
+.aTag1:hover{
+    scale: 1.2;
+    transition:all 0.2s ease-in-out;
+}
 
 @media only screen and (max-width: 1400px) {
     .sidebar-div{

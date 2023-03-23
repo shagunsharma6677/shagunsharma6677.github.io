@@ -56,7 +56,7 @@
   /* padding: 0px 40px; */
 }
 .h-left-wrapper > div > span {
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   font-weight: 850;
   text-align: start;
   margin-bottom: 0px;
@@ -68,7 +68,7 @@
   align-items: center;
 }
 .typewriter > div {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   text-align: start;
   margin-bottom: 0px;
@@ -78,7 +78,7 @@
   height: 150px;
 }
 .h-left-wrapper > .h-title-down > p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   margin: 10px 0px 20px;
   font-weight: 400;
@@ -92,7 +92,9 @@
 .h-title-down {
   height: 30%;
 }
-
+.home-img{
+  width: 40vw;
+}
 .home-buttons {
   display: flex;
   /* justify-content:start; */
@@ -142,18 +144,27 @@
     flex-direction: column;
     /* padding: 0 50px; */
     padding: 20px 10px;
-    width: 95%;
+    /* width: 95%; */
+    width: 95vw;
+  }
+  .home-buttons{
+    justify-content: center;
   }
   .h-left-wrapper > .h-title-down > p {
-    width: 90%;
+    /* width: 90%; */
+    width: 90vw;
     margin: auto;
     margin-top: 30px;
+    text-align: center;
   }
   .h-title-head {
     margin: auto;
-    width: fit-content;
+    width: 100vw;
     padding: 0 25px;
     justify-content: center;
+    text-align: center;
+  }
+  .typewriter > div {
     text-align: center;
   }
   .h-left-wrapper {
@@ -168,8 +179,12 @@
   .home-left {
     width: fit-content;
   }
-  .profile-pic {
-    width: 280px;
+  .home-img{
+    width: 70vw;
+  }
+  .h-title-down {
+    height: 30%;
+    width: 90vw;
   }
 }
 
@@ -181,11 +196,33 @@
     width: 90%;
   }
   .h-left-wrapper {
-    padding: 10px;
+    padding: 10px 5px;
     /* margin-top: 30px; */
+  }
+  .home-img{
+    width: 70vw;
   }
 
   .h-left-wrapper > div > span {
     font-size: calc(2rem + 1.5vw);
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .h-wrap-cont {
+    /* border: 1px solid red; */
+    width: 100vw;
+    padding: 10px;
+  }
+  .h-left-wrapper > .h-title-down > p {
+    width:95vw;
+    text-align: center;
+  }
+  .h-title-down{
+    /* border: 1px solid blue; */
+    width: 95vw;
+   
+  }
+
+
 }

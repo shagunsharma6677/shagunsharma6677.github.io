@@ -20,6 +20,9 @@ const Contact = () => {
     };
     return (
         <div id="contact">
+            <div className='vertLine'>
+
+            </div>
             <div className='contact-heading'>
                 <h2>Contact</h2>
                 {/* <div>Call or Write Anything</div> */}
@@ -44,7 +47,7 @@ const Contact = () => {
 
             </div>
 
-            <div style={{width:"70%",margin:"auto",display:"flex", justifyContent:"end",gap:"50px"}}>
+            {/* <div style={{ width: "70%", margin: "auto", display: "flex", justifyContent: "end", gap: "50px" }}>
 
 
                 <a id="contact-linkedin" href="https://www.linkedin.com/in/shagun-s-84b0a6238/" rel="noopener noreferrer" target="_blank">
@@ -61,6 +64,72 @@ const Contact = () => {
                 <a id="contact-email" href="">
                     shagunsharma6677@gmail.com
                 </a>
+
+            </div> */}
+
+            <div className='footer-links'>
+                <ul>
+                    <div>
+                        <li>Quick Links</li>
+                    </div>
+
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        Skills
+                    </li>
+                    <li>
+                        Projects
+                    </li>
+
+
+                </ul>
+                <ul>
+                    <div>
+                        <li>Contach & support</li>
+                    </div>
+                    <li>
+                        <span>Mobile:</span>
+                        <span id="contact-phone">+919760657327</span>
+                    </li>
+                    <li>
+                        <span>Email:</span>
+                        <span id="contact-email" >shagunsharma6677@gmail.com</span>
+                    </li>
+                    <li>
+                        <span>Location:</span>
+                        <span>Uttrakhand, India</span>
+                    </li>
+                    <li>
+                        Terms & condition
+                    </li>
+
+
+
+
+                </ul>
+                <div className='get-touch'>
+                    <div>
+                        <li>Get in touch</li>
+                    </div>
+                    <div className='contat-social'>
+                        <a id="contact-linkedin" href="https://www.linkedin.com/in/shagun-s-84b0a6238/" rel="noopener noreferrer" target="_blank">
+                            <i style={{ fontSize: "35px", color: "#222222" }} className="devicon-linkedin-plain"></i>
+                        </a>
+
+                        <a id="contact-github" href="https://github.com/shagunsharma6677" rel="noopener noreferrer" target="_blank">
+                            <i style={{ fontSize: "35px", color: "#222222" }} className="devicon-github-original colored"></i>
+                        </a>
+
+                        <a href="https://api.whatsapp.com/send?phone=9760657327&text=Send20%a20%quote" rel="noopener noreferrer" target='_blank'>
+                            <i style={{ fontSize: "35px", color: "#222222" }} className="fa fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
 
             </div>
 

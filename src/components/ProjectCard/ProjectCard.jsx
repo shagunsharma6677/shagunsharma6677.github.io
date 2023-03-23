@@ -3,14 +3,14 @@ import "./ProjectCard.css"
 import Button from "../Button/Button.jsx"
 
 
-const ProjectCard = () => {
+const ProjectCard = ({ img, head, des, stack,git,deploy }) => {
     return (
         <>
             <div className='project-wrapper project-card'>
                 <div className='proj-cont'>
                     <div className='proj-left'>
                         <div className='proj-img-cont'>
-                            <img src="https://jainex.vercel.app/static/media/pimg1.ce667dcc72252cb0abda.png" width={"200px"} alt="" />
+                            <img src={img} width={"200px"} alt="" />
                         </div>
 
 
@@ -18,10 +18,10 @@ const ProjectCard = () => {
                     <div className='proj-right'>
                         <div className="proj-right-cont">
                             <h3 >Featured Project</h3>
-                            <h1 className="project-title">Lorem ipsum dolor sit.</h1>
+                            <h1 className="project-title">{head}</h1>
 
                             <div className='proj-des project-description'>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis dolorum rem ea et praesentium tenetur facere temporibus similique voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus facere perspiciatis ullam ex quidem laudantium sapiente rem eveniet fuga.</p>
+                                <p>{des}</p>
 
 
                             </div>
@@ -34,11 +34,17 @@ const ProjectCard = () => {
 
                             <div className="deploy-links">
                                 <div className="project-deployed-link">
-                                    <Button bg={false} title="Deploy Link" />
+
+                                    <a href={deploy} target="_blank">
+                                        <Button bg={false} title="Deploy Link" />
+                                    </a>
+                                    {/* <button style={{ backgroundColor: "#222222", cursor: "pointer" }} className='our-button'>Deploy Link</button> */}
                                 </div>
                                 <div className="project-github-link">
+                                    <a href={git} target="_blank">
+                                        <Button bg={false} title="Github" />
+                                    </a>
 
-                                    <Button bg={false} title="Github" />
 
                                 </div>
 
