@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "448653545da429eb96a3",
-    "url": "/static/css/main.ea89686d.chunk.css"
+    "revision": "7a59fd952387d8d8a1ae",
+    "url": "/static/css/main.e168b8b3.chunk.css"
   },
   {
-    "revision": "448653545da429eb96a3",
-    "url": "/static/js/main.44865354.chunk.js"
+    "revision": "7a59fd952387d8d8a1ae",
+    "url": "/static/js/main.7a59fd95.chunk.js"
   },
   {
-    "revision": "9e6c96c48f2fd00bc38b",
-    "url": "/static/js/1.9e6c96c4.chunk.js"
+    "revision": "9217d35307c50c8d924d",
+    "url": "/static/js/1.9217d353.chunk.js"
   },
   {
-    "revision": "75090304a793b501ac27",
-    "url": "/static/js/2.75090304.chunk.js"
+    "revision": "8a26526c8470e70c4151",
+    "url": "/static/js/2.8a26526c.chunk.js"
   },
   {
-    "revision": "ec403c2e62495e37cfd2",
-    "url": "/static/js/runtime~main.ec403c2e.js"
+    "revision": "f0024bd19d0af4d94227",
+    "url": "/static/js/runtime~main.f0024bd1.js"
   },
   {
     "revision": "8e94cc97545207690736034de7e13c3e",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/bootstrap-icon.03c84bcc.svg"
   },
   {
-    "revision": "673322c4df74052a532a24ddc163df84",
+    "revision": "25439b089325dfa76653543ccb3c67a3",
     "url": "/index.html"
   }
 ];
