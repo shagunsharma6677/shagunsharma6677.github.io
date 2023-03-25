@@ -20,14 +20,12 @@ const Contact = () => {
     };
     return (
         <div id="contact">
-            <div className='vertLine'>
 
-            </div>
             <div className='contact-heading'>
-                <h2>Contact</h2>
+                <h2>Contact Me </h2>
                 {/* <div>Call or Write Anything</div> */}
             </div>
-            <div className='contact-content'>
+            {/* <div className='contact-content'>
                 <div className='form-div' >
                     <form className='form' ref={form} onSubmit={sendEmail}>
                         <label>Name</label>
@@ -36,7 +34,7 @@ const Contact = () => {
                         <input type="email" name="user_email" />
                         <label>Message</label>
                         <textarea name="message" />
-                        {/* <input className='send_btn' type="submit" value="Send" /> */}
+                        
                         <button type='submit' value="send" style={{ backgroundColor: "#68d372", cursor: "pointer" }} className='our-button'>Send</button>
 
                     </form>
@@ -45,7 +43,7 @@ const Contact = () => {
                     <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" alt="" />
                 </div>
 
-            </div>
+            </div> */}
 
             {/* <div style={{ width: "70%", margin: "auto", display: "flex", justifyContent: "end", gap: "50px" }}>
 
@@ -131,7 +129,9 @@ const Contact = () => {
                     </div>
                 </div>
 
+
             </div>
+            
 
             {/* <div id="contact-github"> contact-github</div>
             <div id="contact-linkedin"> contact-linkedin</div>
@@ -194,3 +194,19 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <input className='send_btn' type="submit" value="Send" /> */ }

@@ -17,7 +17,7 @@
   /* padding: 20px; */
 }
 .proj-left {
-  width: 50%;
+  width: 60%;
 
   /* background-color: aquamarine; */
   opacity: 0.6;
@@ -104,7 +104,8 @@
 @media only screen and (max-width: 1150px) {
   .proj-cont {
     flex-direction: column;
-    height: 600px;
+    height: 630px;
+
   }
   .project-wrapper {
     height: auto;
