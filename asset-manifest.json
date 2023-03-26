@@ -1,11 +1,11 @@
 {
-  "main.css": "/static/css/main.e168b8b3.chunk.css",
-  "main.js": "/static/js/main.7a59fd95.chunk.js",
-  "main.js.map": "/static/js/main.7a59fd95.chunk.js.map",
+  "main.css": "/static/css/main.391a0338.chunk.css",
+  "main.js": "/static/js/main.3483908a.chunk.js",
+  "main.js.map": "/static/js/main.3483908a.chunk.js.map",
   "static/js/1.9217d353.chunk.js": "/static/js/1.9217d353.chunk.js",
   "static/js/1.9217d353.chunk.js.map": "/static/js/1.9217d353.chunk.js.map",
-  "static/js/2.8a26526c.chunk.js": "/static/js/2.8a26526c.chunk.js",
-  "static/js/2.8a26526c.chunk.js.map": "/static/js/2.8a26526c.chunk.js.map",
+  "static/js/2.d9a76a90.chunk.js": "/static/js/2.d9a76a90.chunk.js",
+  "static/js/2.d9a76a90.chunk.js.map": "/static/js/2.d9a76a90.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.f0024bd1.js",
   "runtime~main.js.map": "/static/js/runtime~main.f0024bd1.js.map",
   "static/media/calender.jpeg": "/static/media/calender.8e94cc97.jpeg",
@@ -21,8 +21,9 @@
   "static/media/typescript-icon.svg": "/static/media/typescript-icon.f6f43066.svg",
   "static/media/vue-icon.svg": "/static/media/vue-icon.c27f74e4.svg",
   "static/media/bootstrap-icon.svg": "/static/media/bootstrap-icon.03c84bcc.svg",
-  "static/css/main.e168b8b3.chunk.css.map": "/static/css/main.e168b8b3.chunk.css.map",
+  "static/media/green.gif": "/static/media/green.ae5a8c79.gif",
+  "static/css/main.391a0338.chunk.css.map": "/static/css/main.391a0338.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.876105e3a87f61ec2d975a03a80e7634.js": "/precache-manifest.876105e3a87f61ec2d975a03a80e7634.js",
+  "precache-manifest.ecd040b42c636376afb2a9f8e277b77b.js": "/precache-manifest.ecd040b42c636376afb2a9f8e277b77b.js",
   "service-worker.js": "/service-worker.js"
 }
