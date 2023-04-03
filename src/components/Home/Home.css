@@ -66,6 +66,8 @@
 .typewriter {
   display: flex;
   align-items: center;
+ 
+  z-index: 10;
 }
 .typewriter > div {
   font-size: 2.5rem;
@@ -73,6 +75,7 @@
   text-align: start;
   margin-bottom: 0px;
   color: white;
+  
   /* border: 1px solid red; */
   width: 500px;
   height: 150px;
@@ -82,18 +85,23 @@
   line-height: 24px;
   margin: 10px 0px 20px;
   font-weight: 400;
-  width: 70%;
+  width: 75%;
   color: #6e6e6e;
 }
 .h-title-head {
   height: auto;
+  z-index: 10;
+  background-color: #222222;
   /* border: 1px solid green; */
 }
 .h-title-down {
   height: 30%;
+  z-index: 10;
+  background-color: #222222;
 }
 .home-img{
   width: 40vw;
+  z-index: 10;
 }
 .home-buttons {
   display: flex;
@@ -138,6 +146,13 @@
 /* .h-left-logos{
     margin-top: 10px;
 } */
+@media only screen and (max-width: 1000px) {
+  .h-right-wrapper{
+    display: none;
+
+  }
+
+}
 
 @media only screen and (max-width: 900px) {
   .h-wrap-cont {
@@ -157,6 +172,7 @@
     margin-top: 30px;
     text-align: center;
   }
+  
   .h-title-head {
     margin: auto;
     width: 100vw;

@@ -62,7 +62,7 @@
   /* padding: 50px; */
 }
 .form > input {
-  background-color: white;
+  /* background-color: white; */
   border-bottom: 1px solid grey;
 }
 .form > textarea {
@@ -85,7 +85,7 @@
   justify-content: center;
   margin: auto;
   gap: 70px;
-  padding: 80px;
+  padding: 20px 50px;
   width: fit-content;
   box-sizing: border-box;
 }

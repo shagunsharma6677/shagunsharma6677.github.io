@@ -3,6 +3,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 import "./Projects.css"
 import image from "./next.jpeg"
 import Fade from 'react-reveal/Fade';
+import img from "./mailpanda.jpeg"
 
 const Projects = () => {
   return (
@@ -23,7 +24,13 @@ const Projects = () => {
         </div>
         <div>
           <Fade left>
-            <ProjectCard deploy="https://tubular-fairy-075515.netlify.app/" git="https://github.com/shagunsharma6677/undisturbed-health-4152" des="Next.com is the clone of apple website. Throught this user can buy varous apple products like Mac book I phone IPad. It has an inteactive UI with reveal animation. It is an individual project build in 5 days." head="Next.com (Apple Clone)" img={image} />
+            <ProjectCard deploy="https://tubular-fairy-075515.netlify.app/" git="https://github.com/shagunsharma6677/lowly-nest-999" des="Mail Panda is the customer sales and marketing website build in 5 days with React, Bootstrap,Authentication, Redux. User able to signup and login successfully." head="Main Panda" img={img} />
+          </Fade>
+        </div>
+
+        <div>
+          <Fade right>
+            <ProjectCard deploy="https://sweet-otter-8ff3cd.netlify.app/" git="https://github.com/shagunsharma6677/undisturbed-health-4152" des="Next.com is the clone of apple website. Throught this user can buy varous apple products like Mac book I phone IPad. It has an inteactive UI with reveal animation. It is an individual project build in 5 days." head="Next.com (Apple Clone)" img={image} />
           </Fade>
         </div>
 
@@ -31,47 +38,7 @@ const Projects = () => {
 
       </div>
 
-      {/* <div class="project-card">
-            <img src="" alt="" />
-            <div class="project-title">project-title</div>
-            <div class="project-description">project-description</div>
-            <div class="project-tech-stack">project-tech-stack</div>
-            <div class="project-github-link">project-github-link</div>
-            <div class="project-deployed-link">project-deployed-link</div>
-            
-        </div>
-
-        
-        <div class="project-card">
-            <img src="" alt="" />
-            <div class="project-title">project-title</div>
-            <div class="project-description">project-description</div>
-            <div class="project-tech-stack">project-tech-stack</div>
-            <div class="project-github-link">project-github-link</div>
-            <div class="project-deployed-link">project-deployed-link</div>
-            
-        </div>
-
-        
-        <div class="project-card">
-            <img src="" alt="" />
-            <div class="project-title">project-title</div>
-            <div class="project-description">project-description</div>
-            <div class="project-tech-stack">project-tech-stack</div>
-            <div class="project-github-link">project-github-link</div>
-            <div class="project-deployed-link">project-deployed-link</div>
-            
-        </div>
-
-        <div class="project-card">
-            <img src="" alt="" />
-            <div class="project-title">project-title</div>
-            <div class="project-description">project-description</div>
-            <div class="project-tech-stack">project-tech-stack</div>
-            <div class="project-github-link">project-github-link</div>
-            <div class="project-deployed-link">project-deployed-link</div>
-            
-        </div> */}
+   
     </div>
   );
 };

@@ -38,7 +38,7 @@ const ProjectCard = ({ img, head, des, stack,git,deploy }) => {
                                     <a href={deploy} target="_blank">
                                         <Button bg={false} title="Deploy Link" />
                                     </a>
-                                    {/* <button style={{ backgroundColor: "#222222", cursor: "pointer" }} className='our-button'>Deploy Link</button> */}
+                                
                                 </div>
                                 <div className="project-github-link">
                                     <a href={git} target="_blank">
@@ -48,8 +48,7 @@ const ProjectCard = ({ img, head, des, stack,git,deploy }) => {
 
                                 </div>
 
-                                {/* <div className="project-github-link">Github Link</div> */}
-                                {/* <div className="project-deployed-link">Deployed</div> */}
+                              
                             </div>
                         </div>
 

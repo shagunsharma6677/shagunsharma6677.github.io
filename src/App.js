@@ -21,6 +21,7 @@ import reactIcon from "./assets/react-icon.svg";
 import typescriptIcon from "./assets/typescript-icon.svg";
 import vueIcon from "./assets/vue-icon.svg";
 import boostrapIcon from "./assets/bootstrap-icon.svg";
+// import bootstrapIcon from "./assets/bootstrap-icon.svg"
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -117,7 +118,7 @@ function App() {
                 consent: false,
                 distance: 150,
                 enable: false,
-                opacity: 0.4,
+                opacity: 0.5,
                 width: 5,
               },
               move: {

@@ -14,6 +14,16 @@
   margin-top: -10px;
   /* margin-bottom: 40px; */
 }
+#skills > h2 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+#calen{
+  max-width: 80vw;
+}
+#calendiv{
+  margin: auto;
+}
 
 #skills > h2,
 .git-details > h1 {
@@ -37,6 +47,7 @@
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 .skills-wrapper {
   background-color: #222222;
@@ -51,6 +62,7 @@
 .skills-prog-cont {
   padding: 50px;
   z-index: 10;
+  padding-top: 0;
   /* border: 1px solid green; */
 }
 .skills-prog-div {
@@ -61,6 +73,8 @@
   align-items: center;
   justify-content: space-around;
   z-index: 10;
+  z-index: 100;
+  background-color: #222222;
 }
 
 /* .skills-prog-div > div > div > img {
@@ -74,6 +88,8 @@
 }
 .stat-img-div > img {
   width: 400px;
+  z-index: 10;
+  background-color: white;
 }
 .git-details {
   /* margin-bottom: 40px; */
@@ -84,6 +100,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 10;
+  background-color: white;
 }
 .git-state-div > div {
   margin-bottom: 20px;
@@ -108,6 +126,8 @@
   font-size: 17px;
   line-height: 22.5px;
   font-weight: 400;
+  z-index: 10;
+  background-color: #222222;
 }
 .stat-card-skills {
   /* border: 1px solid red; */
@@ -120,10 +140,13 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  
 }
 .stat-divs > img {
   margin-bottom: 20px;
   width: 85%;
+  z-index: 10;
+  background-color: white;
 }
 
 @media only screen and (max-width: 1330px) {

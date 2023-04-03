@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
-import Button from '../Button/Button'
 import { Link } from "react-scroll"
 
 const Navbar = () => {
@@ -20,19 +19,19 @@ const Navbar = () => {
                     </ul>
                     <ul className={state === true ? "nav-center" : "nav-center active"} >
                         <li>
-                            <Link className="nav-link home" to="home" smooth={true} duration={500} offset={200}>Home</Link>
+                            <Link className="nav-link home" to="home" smooth={true} duration={500} offset={0}>Home</Link>
                         </li>
                         <li>
-                            <Link className="nav-link about" to="about" smooth={true} duration={500} offset={75}>About</Link>
+                            <Link className="nav-link about" to="about" smooth={true} duration={500} offset={-100}>About</Link>
                         </li>
                         <li>
-                            <Link className="nav-link skills" to="skills" smooth={true} duration={500} offset={-20}>Skills</Link>
+                            <Link className="nav-link skills" to="skills" smooth={true} duration={500} offset={-60}>Skills</Link>
                         </li>
                         <li>
-                            <Link className="nav-link projects" to="projects" smooth={true} duration={500} offset={0}>Projects</Link>
+                            <Link className="nav-link projects" to="projects" smooth={true} duration={500} offset={-20}>Projects</Link>
                         </li>
                         <li>
-                            <Link className="nav-link contact" to="contact" smooth={true} duration={500} offset={200}>Contact</Link>
+                            <Link className="nav-link contact" to="contact" smooth={true} duration={500} offset={0}>Contact</Link>
                         </li>
                         {/* <li>
                             <a href="/#" className="nav-link resume">Resume</a>
