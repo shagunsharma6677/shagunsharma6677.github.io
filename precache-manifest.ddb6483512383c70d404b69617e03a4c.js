@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "7aae391705392ef8fa5b",
-    "url": "/static/css/main.55e4c559.chunk.css"
+    "revision": "e7e24f99429f27370c65",
+    "url": "/static/css/main.bfc61b33.chunk.css"
   },
   {
-    "revision": "7aae391705392ef8fa5b",
-    "url": "/static/js/main.7aae3917.chunk.js"
+    "revision": "e7e24f99429f27370c65",
+    "url": "/static/js/main.e7e24f99.chunk.js"
   },
   {
-    "revision": "8504c57086f447b14222",
-    "url": "/static/js/1.8504c570.chunk.js"
+    "revision": "831b5f9aa0c105e6dffe",
+    "url": "/static/js/1.831b5f9a.chunk.js"
   },
   {
-    "revision": "894d56475ebdb3cdeb8a",
-    "url": "/static/js/2.894d5647.chunk.js"
+    "revision": "b7cbb25a8013ef850b03",
+    "url": "/static/js/2.b7cbb25a.chunk.js"
   },
   {
-    "revision": "732f0205d9704852c765",
-    "url": "/static/js/runtime~main.732f0205.js"
+    "revision": "f56c424af7336abf2473",
+    "url": "/static/js/runtime~main.f56c424a.js"
+  },
+  {
+    "revision": "d35b41e800376e40648ab8f9879c3bfd",
+    "url": "/static/media/Shagun-Sharma-Resume.d35b41e8.pdf"
   },
   {
     "revision": "677c2cde184868a948be67c14a9a6d09",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/bootstrap-icon.03c84bcc.svg"
   },
   {
-    "revision": "96e8cb1482a0253879e2f4f8b9a45154",
+    "revision": "715126703871c1141b167d8ee129b93f",
     "url": "/index.html"
   }
 ];
