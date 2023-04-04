@@ -1,11 +1,11 @@
 {
-  "main.css": "/static/css/main.bfc61b33.chunk.css",
-  "main.js": "/static/js/main.1d01f274.chunk.js",
-  "main.js.map": "/static/js/main.1d01f274.chunk.js.map",
+  "main.css": "/static/css/main.6c241be4.chunk.css",
+  "main.js": "/static/js/main.249d3ce9.chunk.js",
+  "main.js.map": "/static/js/main.249d3ce9.chunk.js.map",
   "static/js/1.831b5f9a.chunk.js": "/static/js/1.831b5f9a.chunk.js",
   "static/js/1.831b5f9a.chunk.js.map": "/static/js/1.831b5f9a.chunk.js.map",
-  "static/js/2.b7cbb25a.chunk.js": "/static/js/2.b7cbb25a.chunk.js",
-  "static/js/2.b7cbb25a.chunk.js.map": "/static/js/2.b7cbb25a.chunk.js.map",
+  "static/js/2.a7bf2359.chunk.js": "/static/js/2.a7bf2359.chunk.js",
+  "static/js/2.a7bf2359.chunk.js.map": "/static/js/2.a7bf2359.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.f56c424a.js",
   "runtime~main.js.map": "/static/js/runtime~main.f56c424a.js.map",
   "static/media/Shagun-Sharma-Resume.pdf": "/static/media/Shagun-Sharma-Resume.d35b41e8.pdf",
@@ -25,8 +25,8 @@
   "static/media/typescript-icon.svg": "/static/media/typescript-icon.f6f43066.svg",
   "static/media/vue-icon.svg": "/static/media/vue-icon.c27f74e4.svg",
   "static/media/bootstrap-icon.svg": "/static/media/bootstrap-icon.03c84bcc.svg",
-  "static/css/main.bfc61b33.chunk.css.map": "/static/css/main.bfc61b33.chunk.css.map",
+  "static/css/main.6c241be4.chunk.css.map": "/static/css/main.6c241be4.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.5d5673303596dc4d97fc4a012b85bae9.js": "/precache-manifest.5d5673303596dc4d97fc4a012b85bae9.js",
+  "precache-manifest.c78f3b6fca6471d3aaf7acb6310cb8ca.js": "/precache-manifest.c78f3b6fca6471d3aaf7acb6310cb8ca.js",
   "service-worker.js": "/service-worker.js"
 }
