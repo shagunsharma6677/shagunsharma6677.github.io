@@ -1,5 +1,5 @@
 #contact {
-  height: auto;
+  height: 70vh;
   padding: 50px;
   /* border: 1px solid red; */
   box-sizing: border-box;
@@ -8,14 +8,13 @@
  
   padding-bottom: 50px;
   /* background-color: aquamarine; */
+  /* transform: scale(0.8); */
 
   
 }
 .form-div {
   display: flex;
-  /* background-color: aqua; */
-  /* border: 1px solid black; */
-  /* padding: 50px; */
+ 
 }
 .contact-heading {
   /* border: 1px solid red; */
@@ -31,26 +30,7 @@
   position: relative;
   /* text-decoration: underline; */
 }
-/* .contact-heading > h2::before {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 3px solid #222222;
 
-  top: 50%;
-  left: 58%;
-  width: 350px;
-}
-.contact-heading > h2::after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 3px solid #222222;
-
-  top: 50%;
-  right: 58%;
-  width: 350px;
-} */
 
 .form {
   display: flex;

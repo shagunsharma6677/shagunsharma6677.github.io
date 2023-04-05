@@ -2,10 +2,18 @@ import React from "react";
 import "./Skills.css";
 // import cont from "./cont.jpeg";
 import HomeSvg from "../Home/HomeSvg";
-import cal from "./calender.jpeg";
+// import cal from "./calender.jpeg";
 import Fade from "react-reveal/Fade";
+// import {} GitHubCalendar }  from 'react-github-calendar';
+import GitHubCalendar from "react-github-calendar"
+// const GitHubCalendar = require("react-github-calendar")
+// import ReactGithubCalendar from '@axetroy/react-github-calendar'
+
+
 
 const Skills = () => {
+
+
   return (
     <>
       <div id="skills">
@@ -62,7 +70,7 @@ const Skills = () => {
                   <p className="skills-card-name">Html</p>
                 </div>
                 <div className="skills-card">
-              
+
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-mongodb-plain colored skills-card-img"
@@ -77,7 +85,7 @@ const Skills = () => {
                   <p className="skills-card-name">Tailwind</p>
                 </div>
                 <div className="skills-card">
-          
+
 
                   <i
                     style={{ fontSize: "55px" }}
@@ -103,7 +111,7 @@ const Skills = () => {
               <h2>Technologies & Libraries</h2>
               <div className="skills-prog-div">
                 <div className="skills-card">
-   
+
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-npm-original-wordmark colored skills-card-img"
@@ -118,7 +126,7 @@ const Skills = () => {
                   <p className="skills-card-name">Git</p>
                 </div>
                 <div className="skills-card">
-         
+
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-babel-plain colored skills-card-img"
@@ -126,7 +134,7 @@ const Skills = () => {
                   <p className="skills-card-name">Babel</p>
                 </div>
                 <div className="skills-card">
-          
+
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-heroku-original colored skills-card-img"
@@ -134,7 +142,7 @@ const Skills = () => {
                   <p className="skills-card-name">Heroku</p>
                 </div>
                 <div className="skills-card">
-             
+
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-materialui-plain colored skills-card-img"
@@ -142,7 +150,7 @@ const Skills = () => {
                   <p className="skills-card-name">Material UI</p>
                 </div>
                 <div className="skills-card">
-                 
+
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-bootstrap-plain colored skills-card-img"
@@ -168,10 +176,13 @@ const Skills = () => {
                 <div>
                   {/* <img id="github-streak-stats" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shagunsharma6677&theme=github_dark" alt="jainex's GitHub stats" /> */}
                   <div>
-                    <div id="calendiv" className="react-activity-calendar" >
-                      <Fade bottom>
-                        <img id="calen" className="react-activity-calendar" src={cal} alt="" />
-                      </Fade>
+                    <div className="react-activity-calendar" id="calendiv" >
+                      {/* <Fade bottom> */}
+
+                      <GitHubCalendar  username="shagunsharma6677" />
+
+
+                      {/* </Fade> */}
                     </div>
 
                     <div className="stat-img-div">
