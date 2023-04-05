@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "bdff6b4ba8674f9614c1",
-    "url": "/static/css/main.7546947f.chunk.css"
+    "revision": "2c5fb4fdf14a44707266",
+    "url": "/static/css/main.bb710713.chunk.css"
   },
   {
-    "revision": "bdff6b4ba8674f9614c1",
-    "url": "/static/js/main.bdff6b4b.chunk.js"
+    "revision": "2c5fb4fdf14a44707266",
+    "url": "/static/js/main.2c5fb4fd.chunk.js"
   },
   {
-    "revision": "31d6f8c7007864882026",
-    "url": "/static/js/1.31d6f8c7.chunk.js"
+    "revision": "f9a280cce4a84bd8f31a",
+    "url": "/static/js/1.f9a280cc.chunk.js"
   },
   {
-    "revision": "82e70bf49307da0e62b0",
-    "url": "/static/js/2.82e70bf4.chunk.js"
+    "revision": "1fbb58802513e0425d2a",
+    "url": "/static/js/2.1fbb5880.chunk.js"
   },
   {
-    "revision": "d839b416c0cb7487a531",
-    "url": "/static/js/runtime~main.d839b416.js"
+    "revision": "148dedf133217d189ab6",
+    "url": "/static/js/runtime~main.148dedf1.js"
   },
   {
     "revision": "677c2cde184868a948be67c14a9a6d09",
@@ -40,11 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/Shagun-Sharma-Resume.20ce4dd6.pdf"
   },
   {
-    "revision": "8e94cc97545207690736034de7e13c3e",
-    "url": "/static/media/calender.8e94cc97.jpeg"
-  },
-  {
-    "revision": "d4b5d3b6040e74b6c07a11bbe1425758",
+    "revision": "b3a5646da78dc38d692efbb64f39de70",
     "url": "/index.html"
   }
 ];
