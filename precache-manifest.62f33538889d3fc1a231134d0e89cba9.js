@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2c5fb4fdf14a44707266",
+    "revision": "de41d99aadd364c68315",
     "url": "/static/css/main.bb710713.chunk.css"
   },
   {
-    "revision": "2c5fb4fdf14a44707266",
-    "url": "/static/js/main.2c5fb4fd.chunk.js"
+    "revision": "de41d99aadd364c68315",
+    "url": "/static/js/main.de41d99a.chunk.js"
   },
   {
     "revision": "f9a280cce4a84bd8f31a",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/Shagun-Sharma-Resume.20ce4dd6.pdf"
   },
   {
-    "revision": "b3a5646da78dc38d692efbb64f39de70",
+    "revision": "3cc3ea81a4884d29f16bf382566c45d2",
     "url": "/index.html"
   }
 ];
