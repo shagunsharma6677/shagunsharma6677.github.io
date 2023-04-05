@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6f7588415bf10531f9fa",
+    "revision": "6677a3efa548b1c18bde",
     "url": "/static/css/main.7546947f.chunk.css"
   },
   {
-    "revision": "6f7588415bf10531f9fa",
-    "url": "/static/js/main.6f758841.chunk.js"
+    "revision": "6677a3efa548b1c18bde",
+    "url": "/static/js/main.6677a3ef.chunk.js"
   },
   {
     "revision": "31d6f8c7007864882026",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/calender.8e94cc97.jpeg"
   },
   {
-    "revision": "06b00e949eb09ca89b75e83f5c7c4a90",
+    "revision": "152cdcc972fcea0b4ed86329493a3af9",
     "url": "/index.html"
   }
 ];
