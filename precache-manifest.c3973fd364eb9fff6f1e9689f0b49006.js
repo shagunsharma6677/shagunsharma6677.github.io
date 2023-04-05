@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ef78375556f83bc5e66a",
+    "revision": "b38e8f76ccd4e69b816e",
     "url": "/static/css/main.7546947f.chunk.css"
   },
   {
-    "revision": "ef78375556f83bc5e66a",
-    "url": "/static/js/main.ef783755.chunk.js"
+    "revision": "b38e8f76ccd4e69b816e",
+    "url": "/static/js/main.b38e8f76.chunk.js"
   },
   {
     "revision": "31d6f8c7007864882026",
@@ -36,15 +36,15 @@ self.__precacheManifest = [
     "url": "/static/media/pictwo.4b9956f6.jpg"
   },
   {
-    "revision": "d35b41e800376e40648ab8f9879c3bfd",
-    "url": "/static/media/Shagun-Sharma-Resume.d35b41e8.pdf"
+    "revision": "20ce4dd6b1392a5848d4590f6b079f52",
+    "url": "/static/media/Shagun-Sharma-Resume.20ce4dd6.pdf"
   },
   {
     "revision": "8e94cc97545207690736034de7e13c3e",
     "url": "/static/media/calender.8e94cc97.jpeg"
   },
   {
-    "revision": "f145c5f40109033f9c2889bf936824cf",
+    "revision": "57c056a17362ae70a5e6f1e0784e89f6",
     "url": "/index.html"
   }
 ];

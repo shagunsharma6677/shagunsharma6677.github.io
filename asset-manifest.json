@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.7546947f.chunk.css",
-  "main.js": "/static/js/main.ef783755.chunk.js",
-  "main.js.map": "/static/js/main.ef783755.chunk.js.map",
+  "main.js": "/static/js/main.b38e8f76.chunk.js",
+  "main.js.map": "/static/js/main.b38e8f76.chunk.js.map",
   "static/js/1.31d6f8c7.chunk.js": "/static/js/1.31d6f8c7.chunk.js",
   "static/js/1.31d6f8c7.chunk.js.map": "/static/js/1.31d6f8c7.chunk.js.map",
   "static/js/2.82e70bf4.chunk.js": "/static/js/2.82e70bf4.chunk.js",
@@ -12,10 +12,10 @@
   "static/media/next.jpeg": "/static/media/next.5c9507dd.jpeg",
   "static/media/mailpanda.jpeg": "/static/media/mailpanda.42fcc809.jpeg",
   "static/media/pictwo.jpg": "/static/media/pictwo.4b9956f6.jpg",
-  "static/media/Shagun-Sharma-Resume.pdf": "/static/media/Shagun-Sharma-Resume.d35b41e8.pdf",
+  "static/media/Shagun-Sharma-Resume.pdf": "/static/media/Shagun-Sharma-Resume.20ce4dd6.pdf",
   "static/media/calender.jpeg": "/static/media/calender.8e94cc97.jpeg",
   "static/css/main.7546947f.chunk.css.map": "/static/css/main.7546947f.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.73c6a182bb152e54e589501ba3cff766.js": "/precache-manifest.73c6a182bb152e54e589501ba3cff766.js",
+  "precache-manifest.c3973fd364eb9fff6f1e9689f0b49006.js": "/precache-manifest.c3973fd364eb9fff6f1e9689f0b49006.js",
   "service-worker.js": "/service-worker.js"
 }
