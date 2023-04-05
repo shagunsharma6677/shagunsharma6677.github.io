@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "de41d99aadd364c68315",
+    "revision": "6cd718a90b71de21d149",
     "url": "/static/css/main.bb710713.chunk.css"
   },
   {
-    "revision": "de41d99aadd364c68315",
-    "url": "/static/js/main.de41d99a.chunk.js"
+    "revision": "6cd718a90b71de21d149",
+    "url": "/static/js/main.6cd718a9.chunk.js"
   },
   {
     "revision": "f9a280cce4a84bd8f31a",
     "url": "/static/js/1.f9a280cc.chunk.js"
   },
   {
-    "revision": "1fbb58802513e0425d2a",
-    "url": "/static/js/2.1fbb5880.chunk.js"
+    "revision": "78f5fa78b0f36986cd92",
+    "url": "/static/js/2.78f5fa78.chunk.js"
   },
   {
     "revision": "148dedf133217d189ab6",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/Shagun-Sharma-Resume.20ce4dd6.pdf"
   },
   {
-    "revision": "3cc3ea81a4884d29f16bf382566c45d2",
+    "revision": "af00e0a8e44125041f5d02bb4cab51d9",
     "url": "/index.html"
   }
 ];
