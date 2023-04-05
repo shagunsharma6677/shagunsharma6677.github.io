@@ -19,14 +19,14 @@ const About = () => {
                 </Fade>
                 <li
                     onClick={redirect}
-                    class="nav__item"
+                    
                     id="resume-button-1"
                     className="nav__link"
                 >
                     <a
                         href="/Shagun-Sharma-Resume.pdf"
                         id="resume-link-1"
-                        class="nav-link resume"
+                        className="nav-link resume"
                         download="Shagun-Sharma-Resume"
                     >
                         Resume

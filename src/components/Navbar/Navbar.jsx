@@ -105,8 +105,8 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li onClick={redirect} class="nav__item" id="resume-button-1" className="nav__link" >
-              <a href="/Shagun-Sharma-Resume.pdf" id="resume-link-1" class="nav-link resume"
+            <li onClick={redirect}  id="resume-button-1" className="nav__link nav-item" >
+              <a href="/Shagun-Sharma-Resume.pdf" id="resume-link-1" className="nav-link resume"
                 download="Shagun-Sharma-Resume">
                 Resume
               </a>
