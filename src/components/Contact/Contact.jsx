@@ -6,6 +6,7 @@ import HomeSvg from "../Home/HomeSvg";
 
 import "./Contact.css";
 import { Fade } from "react-reveal";
+import Button from "../Button/Button";
 
 const Contact = () => {
   const [name, setName] = React.useState("");
@@ -92,11 +93,12 @@ const Contact = () => {
                   onClick={handleToast}
                   type="submit"
                   value="send"
-                  style={{ backgroundColor: "#68d372", cursor: "pointer" }}
+                  style={{ backgroundColor: "#4aae54", cursor: "pointer", border: "1px solid black" }}
                   className="our-button"
                 >
                   Send
                 </button>
+
               </form>
             </div>
           </Fade>

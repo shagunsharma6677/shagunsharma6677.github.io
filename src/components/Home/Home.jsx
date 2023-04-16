@@ -17,12 +17,7 @@ const Home = () => {
     );
   };
 
-  // const redirect = () => {
-  //   window.open(
-  //     "https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link",
-  //     "_blank"
-  //   );
-  // };
+
   return (
     <div id="home" className="home-wrapper">
       <Sidebar />
@@ -62,21 +57,6 @@ const Home = () => {
                 this field.
               </p>
               <div className="home-buttons">
-                {/* <li
-                  onClick={redirect}
-                  
-                  id="resume-button-2"
-                  className="nav__link"
-                >
-                  <a
-                    href="/Shagun-Sharma-Resume.pdf"
-                    id="resume-link-2"
-                    className="nav-link resume"
-                    download="Shagun-Sharma-Resume"
-                  >
-                    Resume
-                  </a>
-                </li> */}
                 <button
                   className="our-button"
                   style={{ backgroundColor: "#222222", cursor: "pointer" }}

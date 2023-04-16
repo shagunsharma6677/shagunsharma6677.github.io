@@ -60,7 +60,7 @@
   font-weight: 850;
   text-align: start;
   margin-bottom: 0px;
-  color: #68d372;
+  color: #4aae54;
   /* word-spacing: 0px; */
 }
 .typewriter {
@@ -105,14 +105,13 @@
 }
 .home-buttons {
   display: flex;
-  /* justify-content:start; */
-  /* border: 1px solid red; */
+
   gap: 30px;
   margin: auto;
   width: 80%;
   align-items: center;
   padding: 10px;
-  /* justify-content: center; */
+
 }
 .h-scroller {
   position: relative;
@@ -127,25 +126,7 @@
   margin-bottom: 10px;
   margin-bottom: 25px;
 }
-/* .h-left-wrapper > span:nth-child(1){
-    font-size: 50px;
-} */
-/* .h-left-wrapper > span:nth-child(2){
-    font-size: 50px;
-} */
 
-/* .h-right-wrapper{
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-
-} */
-
-/* .h-left-logos{
-    margin-top: 10px;
-} */
 @media only screen and (max-width: 1000px) {
   .h-right-wrapper{
     display: none;
@@ -206,14 +187,13 @@
 
 @media only screen and (max-width: 1400px) {
   .h-wrap-cont {
-    /* background-color: lightblue; */
-    /* width: 100%; */
+   
     padding: 30px 0px;
     width: 90%;
   }
   .h-left-wrapper {
     padding: 10px 5px;
-    /* margin-top: 30px; */
+  
   }
   .home-img{
     width: 70vw;
@@ -226,7 +206,7 @@
 
 @media only screen and (max-width: 600px) {
   .h-wrap-cont {
-    /* border: 1px solid red; */
+   
     width: 100vw;
     padding: 10px;
   }

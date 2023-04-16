@@ -3,23 +3,17 @@
   padding-top: 100px;
   margin: auto;
   margin-bottom: -60px;
-
-  
-  /* border: 1px solid yellow; */
-  /* margin-top: 20px; */
 }
 #projects > h1 {
-  color: #68d372;
+  color: #4aae54;
   font-size: 70px;
   line-height: 33.6px;
   font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
 }
 .proj-card-wrapper {
-  /* border: 1px solid green; */
   margin-top: 20px;
 }
 .proj-card-wrapper > div {
@@ -28,18 +22,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
- /* padding-bottom: 75px; */
+  /* padding-bottom: 75px; */
 }
 @media only screen and (min-width: 850px) {
-    .proj-card-wrapper > div{
-      min-height: 70vh;
-         /* border: 1px solid green; */
-         margin-bottom: 60px;
-       
+  .proj-card-wrapper > div {
+    min-height: 70vh;
 
-    }
-    .proj-card-wrapper{
-      /* margin-bottom: 50px; */
-    }
-   
+    margin-bottom: 60px;
   }
+}

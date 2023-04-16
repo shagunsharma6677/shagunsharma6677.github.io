@@ -1,23 +1,20 @@
 #contact {
   height: auto;
   padding: 50px;
-  /* border: 1px solid red; */
+
   box-sizing: border-box;
   background-color: white;
 
-  /* padding-bottom: 50px; */
-  /* background-color: aquamarine; */
+
   padding-right: 0;
   padding-bottom: 0;
 }
 .form-div {
   display: flex;
-  /* background-color: aqua; */
-  /* border: 1px solid black; */
-  /* padding: 50px; */
+
 }
 .contact-heading {
-  /* border: 1px solid red; */
+
   text-align: center;
   height: auto;
 }
@@ -25,43 +22,24 @@
   font-weight: 800;
   line-height: 57.6px;
   font-size: 48px;
-  color: #68d372;
+  color: #4aae54;
   padding: 10px;
   position: relative;
-  /* text-decoration: underline; */
-}
-/* .contact-heading > h2::before {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 3px solid #222222;
 
-  top: 50%;
-  left: 58%;
-  width: 350px;
 }
-.contact-heading > h2::after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 3px solid #222222;
 
-  top: 50%;
-  right: 58%;
-  width: 350px;
-} */
 
 .form {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
+ 
   margin: auto;
   width: 550px;
   background-color: white;
   /* padding: 50px; */
 }
 .form > input {
-  /* background-color: white; */
+
   border-bottom: 1px solid grey;
 }
 .form > textarea {
@@ -69,7 +47,7 @@
 }
 .form > * {
   margin-bottom: 10px;
-  /* border: 1px solid black; */
+
 }
 .send_btn {
   border: 1px solid red;
@@ -80,7 +58,7 @@
 .contact-content {
   display: flex;
   border: 1px solid black;
-  /* background-color: rgb(178, 153, 200); */
+ 
   justify-content: center;
   margin: auto;
   gap: 70px;
@@ -93,7 +71,7 @@
 }
 .our-button {
   margin: auto;
-  /* border: 1px solid rgb(115, 131, 115); */
+
 }
 
 .footer-links {
@@ -102,7 +80,7 @@
   margin: auto;
   display: flex;
   margin-top: 20px;
-  /* justify-content: space-evenly; */
+
   flex-direction: column;
 }
 
@@ -134,13 +112,13 @@
   font-size: 26px;
   line-height: 33.6px;
   font-weight: 600;
-  color: #68d372;
+  color: #4aae54;
 }
 .footer-getInTouch > h4 {
   font-size: 22px;
   line-height: 33.6px;
   font-weight: 600;
-  color: #68d372;
+  color: #4aae54;
 }
 .footer-getInTouch > p {
   text-align: center;
@@ -159,17 +137,12 @@
   font-weight: 600;
   color: white;
 }
-/* .footer-getInTouch >div {
-  display: flex;
-  justify-content: space-around;
-} */
+
 .footer-getInTouch > div > p {
   color: grey;
   margin-bottom: 8px;
 }
-/* .footer-getInTouch > div > p > span {
-  color: #68d372;
-} */
+
 
 @media only screen and (max-width: 1212px) {
   #contact {

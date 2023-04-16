@@ -7,9 +7,7 @@ const Navbar = () => {
   const redirect = () => {
     window.open(
       "https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link",
-      "_blank",
-
-
+      "_blank"
     );
   };
   const [state, setState] = useState(false);
@@ -105,12 +103,6 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            {/* <li onClick={redirect} id="resume-button-1" className="nav__link nav-item" >
-              <a href="/Shagun-Sharma-Resume.pdf" id="resume-link-1" className="nav-link resume"
-                download="Shagun-Sharma-Resume">
-                Resume
-              </a>
-            </li> */}
           </ul>
 
           <div className="nav-right ">

@@ -2,11 +2,6 @@
   background-color: #222222;
   min-height: 100vh;
 
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-  /* border: 1px solid red; */
   padding: 60px;
   padding-bottom: 0px;
   padding-right: 0;
@@ -18,56 +13,50 @@
   font-size: 70px;
   margin-bottom: 20px;
 }
-#calen{
+#calen {
   max-width: 80vw;
 }
-#calendiv{
+#calendiv {
   margin: auto;
 }
 
 #skills > h2,
 .git-details > h1 {
-  /* border: 1px solid red; */
   text-align: center;
-  color: #68d372;
+  color: #4aae54;
   font-size: 28px;
   line-height: 33.6px;
   font-weight: 600;
   font-size: 70px;
-  color: #68d372;
+  color: #4aae54;
   width: fit-content;
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
 }
 .skills-prog-cont > h2 {
-  color: #68d372;
+  color: #4aae54;
   font-size: 28px;
   line-height: 33.6px;
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
-  /* padding-bottom: 20px; */
 }
 .skills-wrapper {
   background-color: #222222;
   max-width: 80%;
   height: auto;
   margin: auto;
-  /* border: 1px solid red; */
-  margin-bottom: 50px;
 
-  /* padding: 30px; */
+  margin-bottom: 50px;
 }
 .skills-prog-cont {
   padding: 50px;
   z-index: 10;
-  padding-top: 0;
-  /* border: 1px solid green; */
 }
 .skills-prog-div {
   display: flex;
-  /* border: 1px solid blue; */
+
   flex-wrap: wrap;
   gap: 60px;
   align-items: center;
@@ -77,9 +66,6 @@
   background-color: #222222;
 }
 
-/* .skills-prog-div > div > div > img {
-  width: 100%;
-} */
 .stat-img-div {
   /* border: 1px solid red; */
   width: 90%;
@@ -114,7 +100,6 @@
   background-color: white;
   width: 100%;
   margin-bottom: -20px;
-  
 }
 .skills-card {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
@@ -130,7 +115,6 @@
   background-color: #222222;
 }
 .stat-card-skills {
-  /* border: 1px solid red; */
   width: fit-content;
   margin: auto;
 }
@@ -140,7 +124,6 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  
 }
 .stat-divs > img {
   margin-bottom: 20px;
