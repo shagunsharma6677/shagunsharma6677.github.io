@@ -175,33 +175,33 @@ const Skills = () => {
                 <div></div>
                 <div>
                   {/* <img id="github-streak-stats" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shagunsharma6677&theme=github_dark" alt="jainex's GitHub stats" /> */}
-                  <div>
-                    <div className="react-activity-calendar" id="calendiv" >
+                  <div style={{ width: "70vw", display: "flex", justifyContent: "center", flexDirection: "column" }}>
+                    <div style={{marginBottom:"20px"}} className="react-activity-calendar" id="calendiv" >
                       {/* <Fade bottom> */}
 
-                      <GitHubCalendar  username="shagunsharma6677" />
+                      <GitHubCalendar username="shagunsharma6677" />
 
 
                       {/* </Fade> */}
                     </div>
 
-                    <div className="stat-img-div">
+                    <div style={{  display: "flex", gap: "20px", margin:"auto"}} className="stat-img-div">
                       <Fade left>
                         <img
                           id="github-streak-stats"
-                          src="https://github-readme-streak-stats.herokuapp.com?user=shagunsharma6677&theme=gotham"
+                          src="https://github-readme-streak-stats.herokuapp.com?user=shagunsharma6677"
                           alt=""
                         />
                       </Fade>
                       <Fade right>
                         <img
                           className="react-activity-calendar"
-                          src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677&theme=gotham"
+                          src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677"
                           alt=""
                         />
                       </Fade>
                     </div>
-                    <div className="stat-img-div">
+                    {/* <div className="stat-img-div">
 
                       <Fade left>
                         <img
@@ -219,7 +219,7 @@ const Skills = () => {
                         />
 
                       </Fade>
-                    </div>
+                    </div> */}
 
                   </div>
                 </div>

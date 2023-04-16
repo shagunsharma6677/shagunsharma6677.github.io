@@ -10,14 +10,19 @@ import { Link } from "react-scroll";
 // import resume from "./Download/Shagun-Sharma-Resume.pdf";
 
 const Home = () => {
-  const myAppRef = document.querySelector(".scrollable-div");
-
   const redirect = () => {
     window.open(
       "https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link",
       "_blank"
     );
   };
+
+  // const redirect = () => {
+  //   window.open(
+  //     "https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link",
+  //     "_blank"
+  //   );
+  // };
   return (
     <div id="home" className="home-wrapper">
       <Sidebar />
@@ -57,7 +62,7 @@ const Home = () => {
                 this field.
               </p>
               <div className="home-buttons">
-                <li
+                {/* <li
                   onClick={redirect}
                   
                   id="resume-button-2"
@@ -71,7 +76,24 @@ const Home = () => {
                   >
                     Resume
                   </a>
-                </li>
+                </li> */}
+                <button
+                  className="our-button"
+                  style={{ backgroundColor: "#222222", cursor: "pointer" }}
+                  id="resume-button-1"
+                  onClick={redirect}
+                >
+                  <a
+                    id="resume-link-1"
+                    className="nav-link resume"
+                    style={{ color: "white", cursor: "pointer" }}
+                    href="https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Resume
+                  </a>
+                </button>
                 <div style={{ cursor: "pointer" }}>
                   <Link
                     className="nav-link contact"
@@ -93,7 +115,7 @@ const Home = () => {
             <img
               style={{ maxWidth: "45vw" }}
               className="profile-pic home-img"
-              src={img}
+              src="https://mspronesti.github.io/static/media/home.11d38661c5585fd9fd2858c3e4b20709.svg"
               alt=""
             />
           </div>

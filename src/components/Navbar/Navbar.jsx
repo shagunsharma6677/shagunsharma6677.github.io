@@ -105,15 +105,15 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li onClick={redirect}  id="resume-button-1" className="nav__link nav-item" >
+            {/* <li onClick={redirect} id="resume-button-1" className="nav__link nav-item" >
               <a href="/Shagun-Sharma-Resume.pdf" id="resume-link-1" className="nav-link resume"
                 download="Shagun-Sharma-Resume">
                 Resume
               </a>
-            </li>
+            </li> */}
           </ul>
 
-          {/* <div className="nav-right ">
+          <div className="nav-right ">
             <button
               className="our-button"
               style={{ backgroundColor: "#222222", cursor: "pointer" }}
@@ -131,7 +131,7 @@ const Navbar = () => {
                 CV Dowmload
               </a>
             </button>
-          </div> */}
+          </div>
           <div onClick={() => setState(!state)} className="hamb">
             {state === true ? (
               <i className="fa fa-times" aria-hidden="true"></i>

@@ -14,7 +14,7 @@ const Sidebar = () => {
         className="aTag1"
       >
         <i
-          style={{ fontSize: "35px", color: "#68D372" }}
+          style={{ fontSize: "30px", color: "#48B5F2" }}
           className="devicon-linkedin-plain"
         ></i>
       </a>
@@ -26,7 +26,7 @@ const Sidebar = () => {
         className="aTag1"
       >
         <i
-          style={{ fontSize: "35px", color: "#68D372" }}
+          style={{ fontSize: "30px", color: "white" }}
           className="devicon-github-original colored"
         ></i>
       </a>
@@ -38,7 +38,7 @@ const Sidebar = () => {
         className="aTag1"
       >
         <i
-          style={{ fontSize: "35px", color: "#68D372" }}
+          style={{ fontSize: "30px", color: "#68D372" }}
           className="fa fa-whatsapp"
         ></i>
       </a>

@@ -1,6 +1,7 @@
 import React from "react";
-import "./about2.css";
+import "./About.css";
 import Fade from "react-reveal/Fade";
+import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
 const About = () => {
     const redirect = () => {
@@ -223,7 +224,7 @@ const About = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="accordion">
+                                        {/* <div className="accordion">
                                             <input type="radio" name="radio-a" id="check5" />
                                             <label className="accordion-label" htmlFor="check5">
                                                 Do you have any previous work experience.
@@ -232,10 +233,10 @@ const About = () => {
                                                 <p style={{ textAlign: "center" }}>
                                                     Yes, I have 6 month of job experience in R&D
                                                     Department of EAPRO working on embedded system project
-                                                    htmlFor TATA Motors (TATA Punch Eletric car).
+                                                    For TATA Motors (TATA Punch Eletric car).
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> */}
 
                                         <div className="accordion">
                                             <input type="radio" name="radio-a" id="check6" />
