@@ -25,7 +25,7 @@ const About = () => {
             className="nav-link resume"
             download="Shagun-Sharma-Resume"
           >
-            Resume
+            {/* Resume */}
           </a>
         </li>
         <div className="about-l-r">
@@ -219,7 +219,7 @@ const About = () => {
                         </p>
                       </div>
                     </div>
-        
+
                     <div className="accordion">
                       <input type="radio" name="radio-a" id="check6" />
                       <label className="accordion-label" htmlFor="check6">

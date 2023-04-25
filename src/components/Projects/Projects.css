@@ -2,7 +2,6 @@
   background-color: #222222;
   padding-top: 100px;
   margin: auto;
-  margin-bottom: -60px;
 }
 #projects > h1 {
   color: #4aae54;
@@ -22,12 +21,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 75px; */
 }
 @media only screen and (min-width: 850px) {
   .proj-card-wrapper > div {
     min-height: 70vh;
-
-    margin-bottom: 60px;
   }
 }

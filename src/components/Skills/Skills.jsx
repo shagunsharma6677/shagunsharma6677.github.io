@@ -163,7 +163,7 @@ const Skills = () => {
                 <div>
                   <div
                     style={{
-                      width: "70vw",
+                      width: "80vw",
                       display: "flex",
                       justifyContent: "center",
                       flexDirection: "column",

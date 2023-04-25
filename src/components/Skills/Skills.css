@@ -1,13 +1,11 @@
 #skills {
   background-color: #222222;
   min-height: 100vh;
-
   padding: 60px;
   padding-bottom: 0px;
   padding-right: 0;
   box-sizing: border-box;
   margin-top: -10px;
-  /* margin-bottom: 40px; */
 }
 #skills > h2 {
   font-size: 70px;
@@ -47,7 +45,6 @@
   max-width: 80%;
   height: auto;
   margin: auto;
-
   margin-bottom: 50px;
 }
 .skills-prog-cont {
@@ -56,7 +53,6 @@
 }
 .skills-prog-div {
   display: flex;
-
   flex-wrap: wrap;
   gap: 60px;
   align-items: center;
@@ -73,12 +69,12 @@
   justify-content: space-evenly;
 }
 .stat-img-div > img {
-  width: 400px;
+  width: 340px;
+
   z-index: 10;
   background-color: white;
 }
 .git-details {
-  /* margin-bottom: 40px; */
   margin-top: 60px;
 }
 .git-state-div {
@@ -99,7 +95,7 @@
 .github-maindiv {
   background-color: white;
   width: 100%;
-  margin-bottom: -20px;
+  margin-bottom: -40px;
 }
 .skills-card {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
@@ -131,6 +127,7 @@
   z-index: 10;
   background-color: white;
 }
+
 
 @media only screen and (max-width: 1330px) {
   body {
@@ -177,10 +174,12 @@
   }
   .skills-wrapper {
     max-width: 95%;
-
     margin-bottom: 0px;
   }
+  .stat-img-div > img {
+    width: 270px;
+  }
   #skills {
-    padding: 30px;
+    padding: 0px;
   }
 }

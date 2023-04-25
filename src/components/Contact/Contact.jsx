@@ -114,14 +114,20 @@ const Contact = () => {
           </Fade>
         </div>
 
+        <HomeSvg dir="up"/>
+
         <div className="footer-links">
           <div className="footer-getInTouch">
             <h3>Get In Touch</h3>
             {/* <h4>You can reach out to me at</h4> */}
-            <div>
-              <p> shagunsharma6677@gmail.com</p>
+            <div className="p-tag">
+              <p> <i class="fa-regular fa-envelope"></i> shagunsharma6677@gmail.com</p>
 
-              <p>+91-9760657327</p>
+              <p> <i class="fa-solid fa-phone"></i> +91-9760657327</p>
+
+              <p><i class="fa-brands fa-linkedin"></i> shagun-s-67</p>
+
+              <p><i class="fa-brands fa-github"></i> shagunsharma6677</p>
             </div>
             <p>Created By Shagun Sharma | © 2023. All Rights Reserved</p>
           </div>

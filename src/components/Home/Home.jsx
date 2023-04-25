@@ -86,14 +86,14 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="h-scroller">Scroll-Down</div>
+              {/* <div className="h-scroller">Scroll-Down</div> */}
             </div>
           </div>
         </div>
         <div className="home-right">
           <div className="h-right-wrapper">
             <img
-              style={{ maxWidth: "45vw" }}
+              
               className="profile-pic home-img"
               src="https://mspronesti.github.io/static/media/home.11d38661c5585fd9fd2858c3e4b20709.svg"
               alt=""
