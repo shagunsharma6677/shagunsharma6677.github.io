@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fc94cdb.css",
-    "main.js": "/static/js/main.e4f71785.js",
+    "main.css": "/static/css/main.a44cda7f.css",
+    "main.js": "/static/js/main.a1196d80.js",
     "static/js/787.abf38d56.chunk.js": "/static/js/787.abf38d56.chunk.js",
     "static/media/picone2.png": "/static/media/picone2.c958e707c8da73aa66fc.png",
     "static/media/mailpanda.jpeg": "/static/media/mailpanda.35f0d054f9ec0d47ce7b.jpeg",
+    "static/media/Shagun-Sharma-Resume.pdf": "/static/media/Shagun-Sharma-Resume.0f2f112d7916a71565d4.pdf",
     "static/media/next.jpeg": "/static/media/next.701bea66bed260a58c64.jpeg",
     "static/media/sass-icon.svg": "/static/media/sass-icon.3572f53ec4f404e921a9e8193cdb70fe.svg",
     "static/media/node-icon.svg": "/static/media/node-icon.cc3d45a160579a330a5c17cc2c8f1407.svg",
@@ -18,12 +19,12 @@
     "static/media/wordpress.svg": "/static/media/wordpress.19efd7af1fafc38a53600387f0821d3d.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "static/media/vue-icon.svg": "/static/media/vue-icon.7219cc0384993fc067ee20c94a66b1e9.svg",
-    "main.9fc94cdb.css.map": "/static/css/main.9fc94cdb.css.map",
-    "main.e4f71785.js.map": "/static/js/main.e4f71785.js.map",
+    "main.a44cda7f.css.map": "/static/css/main.a44cda7f.css.map",
+    "main.a1196d80.js.map": "/static/js/main.a1196d80.js.map",
     "787.abf38d56.chunk.js.map": "/static/js/787.abf38d56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fc94cdb.css",
-    "static/js/main.e4f71785.js"
+    "static/css/main.a44cda7f.css",
+    "static/js/main.a1196d80.js"
   ]
 }
