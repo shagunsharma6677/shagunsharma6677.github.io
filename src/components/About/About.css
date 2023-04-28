@@ -18,8 +18,18 @@
   display: flex;
   flex-direction: row-reverse;
 }
-.about-heading > h1 {
+.about-heading > h2 {
+   text-align: center;
+  color: #4aae54;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 600;
   font-size: 70px;
+  color: #4aae54;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .about-l-r {
   display: flex;
@@ -49,6 +59,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 
 .main-accordian {
   width: 80%;
@@ -114,9 +125,9 @@
 .right-des > p {
   width: 90%;
   margin: auto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 33px;
+  line-height: 36px;
   text-align: justify;
   text-align: center;
   font-family: "Koulen", cursive;

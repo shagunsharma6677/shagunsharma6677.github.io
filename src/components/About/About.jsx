@@ -4,30 +4,16 @@ import Fade from "react-reveal/Fade";
 import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 
 const About = () => {
-  const redirect = () => {
-    window.open(
-      "https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link",
-      "_blank"
-    );
-  };
+
   return (
     <>
       <div id="about" className="about section about-wrapper">
         <Fade bottom>
           <div className="about-heading">
-            <h1>About</h1>
+            <h2>About</h2>
           </div>
         </Fade>
-        <li onClick={redirect} id="resume-button-1" className="nav__link">
-          <a
-            href="/Shagun-Sharma-Resume.pdf"
-            id="resume-link-1"
-            className="nav-link resume"
-            download="Shagun-Sharma-Resume"
-          >
-            {/* Resume */}
-          </a>
-        </li>
+
         <div className="about-l-r">
           <div className="about-wrap-right">
             <Fade bottom>
@@ -41,14 +27,12 @@ const About = () => {
                 </div>
                 <div className="right-des">
                   <p id="user-detail-intro">
-                    {" "}
-                    A Passionate MERN stack developer with strong
-                    problem-solving abilities, proficient in JavaScript,MongoDB,
-                    React.js, and NodeJS,HTML,CSS,Express keen to learn new
-                    technologies and frameworks. Looking htmlFor growth-oriented
-                    learning environment in a reputed firm driven by technology
-                    where I can utilize and enhance my skills htmlFor mutual
-                    benefits.
+                    A passionate Full Stack Web Developer with strong
+                    problem-solving abilities, proficient in React Js,
+                    Mongo DB, Express Js Next Js, Typescript and Chakra Ui, keen to learn
+                    new technologies and frameworks. Looking
+                    forward to start career in a reputed firm driven by
+                    technology.
                   </p>
                 </div>
               </div>

@@ -7,7 +7,6 @@ import Fade from "react-reveal/Fade";
 
 import GitHubCalendar from "react-github-calendar";
 
-
 const Skills = () => {
   return (
     <>
@@ -152,7 +151,7 @@ const Skills = () => {
           <HomeSvg dir="down" />
           <div className="git-details">
             <Fade bottom>
-              <h1>Github Details</h1>
+              <h2>Github Details</h2>
             </Fade>
           </div>
 
@@ -171,14 +170,9 @@ const Skills = () => {
                   >
                     <div
                       style={{ marginBottom: "20px" }}
-                      className="react-activity-calendar"
                       id="calendiv"
                     >
-                      {/* <Fade bottom> */}
-
                       <GitHubCalendar username="shagunsharma6677" />
-
-                      {/* </Fade> */}
                     </div>
 
                     <div
@@ -188,14 +182,22 @@ const Skills = () => {
                       <Fade left>
                         <img
                           id="github-streak-stats"
-                          src="https://github-readme-streak-stats.herokuapp.com?user=shagunsharma6677"
-                          alt=""
+                          src="https://github-readme-streak-stats.herokuapp.com/?user=shagunsharma6677"
+                          alt="streak"
                         />
                       </Fade>
                       <Fade right>
                         <img
-                          className="react-activity-calendar"
+                          id="github-stats-card"
                           src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677"
+                          alt=""
+                        />
+                      </Fade>
+
+                      <Fade left>
+                        <img
+                          id="github-top-langs"
+                          src="https://github-readme-stats.vercel.app/api/top-langs/?username=shagunsharma6677"
                           alt=""
                         />
                       </Fade>

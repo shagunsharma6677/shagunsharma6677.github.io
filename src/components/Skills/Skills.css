@@ -19,11 +19,13 @@
 }
 
 #skills > h2,
-.git-details > h1 {
+.git-details > h2 {
   text-align: center;
   color: #4aae54;
   font-size: 28px;
-  line-height: 33.6px;
+  
+  line-height: 60.6px;
+
   font-weight: 600;
   font-size: 70px;
   color: #4aae54;
@@ -31,6 +33,7 @@
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
+  
 }
 .skills-prog-cont > h2 {
   color: #4aae54;

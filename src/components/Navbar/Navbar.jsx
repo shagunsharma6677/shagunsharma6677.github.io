@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-// import resume from "./Download/Shagun-Sharma-Resume.pdf";
+import resume from "./Shagun-Sharma-Resume.pdf";
+import { Link as NavLink } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 
 const Navbar = () => {
   const redirect = () => {
     window.open(
       "https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link",
-      "_blank"
+      "_blank", "noreferrer"
     );
   };
   const [state, setState] = useState(false);
@@ -98,14 +100,29 @@ const Navbar = () => {
                 to="contact"
                 smooth={true}
                 duration={500}
-                offset={0}
+                offset={-60}
               >
                 Contact
               </Link>
             </li>
           </ul>
 
-          <div className="nav-right ">
+          <div className="nav-right nav-link resume">
+            <Button
+              className="our-button"
+              style={{ backgroundColor: "#222222", cursor: "pointer" }}
+              id="resume-button-1"
+              onClick={redirect}
+            >
+              <NavLink href={resume} download id="resume-link-1" className="nav-link resume" >
+
+                Resume
+
+              </NavLink>
+            </Button>
+          </div>
+
+          {/* <div className="nav-right ">
             <button
               className="our-button"
               style={{ backgroundColor: "#222222", cursor: "pointer" }}
@@ -116,14 +133,14 @@ const Navbar = () => {
                 id="resume-link-1"
                 className="nav-link resume"
                 style={{ color: "white", cursor: "pointer" }}
-                href="https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link"
-                target="_blank"
+                href="https://drive.google.com/uc?export=download&id=1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So"
+                download={resume}
                 rel="noopener noreferrer"
               >
                 CV Dowmload
               </a>
             </button>
-          </div>
+          </div> */}
           <div onClick={() => setState(!state)} className="hamb">
             {state === true ? (
               <i className="fa fa-times" aria-hidden="true"></i>

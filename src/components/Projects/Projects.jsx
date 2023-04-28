@@ -3,13 +3,13 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 import "./Projects.css";
 import image from "./next.jpeg";
 import Fade from "react-reveal/Fade";
-import img from "./mailpanda.jpeg";
+import img from "./frenzy.jpeg";
 
 const Projects = () => {
   return (
     <div className="project-card" id="projects">
       <Fade bottom>
-        <h1>Projects</h1>
+        <h2>Projects</h2>
       </Fade>
       <div className="proj-card-wrapper">
         <div>
@@ -18,8 +18,9 @@ const Projects = () => {
               img="https://user-images.githubusercontent.com/106108504/221401830-52ba33d9-9c7e-459c-a641-c0e72950f325.png"
               des="Fashion flaire is an e-commerce website that primarily sells and delivers cloths and accessories . This is collabrative project. We have created clone of Ajio.com website in 5 days. User able to signup and login successfully. Also user able to see, buy, add and make payment through website and admin side function is also added."
               head="Flashion Flare (Ajio Clone)"
-              deploy="https://feigned-copper-2423-shashankbijapur.vercel.app/"
+              deploy="https://fashion-flare.vercel.app/"
               git="https://github.com/ShashankBijapur/feigned-copper-2423"
+              stack={["devicon-express-original colored","devicon-mongodb-plain colored","devicon-react-original colored","devicon-redux-original colored",]}
             />
           </Fade>
         </div>
@@ -31,17 +32,19 @@ const Projects = () => {
               head="Two-Punch Fitness"
               deploy="https://admirable-raindrop-842e4c.netlify.app/"
               git="https://github.com/shagunsharma6677/Two-Punch-Fitness-Website"
+              stack={["devicon-express-original colored","devicon-mongodb-plain colored","devicon-html5-plain colored","devicon-css3-plain colored"]}
             />
           </Fade>
         </div>
         <div>
           <Fade left>
             <ProjectCard
-              deploy="https://tubular-fairy-075515.netlify.app/"
-              git="https://github.com/shagunsharma6677/lowly-nest-999"
-              des="Mail Panda is the customer sales and marketing website build in 5 days with React, Bootstrap,Authentication, Redux. User able to signup and login successfully."
-              head="Main Panda"
+              deploy="https://frontend-suhail3535.vercel.app/"
+              git="https://github.com/shagunsharma6677/fashion-frinzy-002"
+              des="Fashion Frenzy is ECommerce Website & is a clone of Anthropologie. With a vast collection of products of fashion and clothing, we offer a seamless shopping experience. Our user-friendly interface and secure payment options ensure a hassle-free shopping experience for our customers. Shop with us today and discover the convenience of online shopping!"
+              head="Fashion Frinzy"
               img={img}
+              stack={["devicon-express-original colored","devicon-mongodb-plain colored","devicon-react-original colored","devicon-redux-original colored",]}
             />
           </Fade>
         </div>
@@ -49,11 +52,12 @@ const Projects = () => {
         <div>
           <Fade right>
             <ProjectCard
-              deploy="https://sweet-otter-8ff3cd.netlify.app/"
+              deploy="https://tubular-fairy-075515.netlify.app/"
               git="https://github.com/shagunsharma6677/undisturbed-health-4152"
               des="Next.com is the clone of apple website. Throught this user can buy varous apple products like Mac book I phone IPad. It has an inteactive UI with reveal animation. It is an individual project build in 5 days."
               head="Next.com (Apple Clone)"
               img={image}
+              stack={["devicon-express-original colored","devicon-mongodb-plain colored","devicon-react-original colored","devicon-redux-original colored",]}
             />
           </Fade>
         </div>

@@ -3,17 +3,21 @@
   padding-top: 100px;
   margin: auto;
 }
-#projects > h1 {
+#projects > h2 {
+  text-align: center;
   color: #4aae54;
-  font-size: 70px;
+  font-size: 28px;
   line-height: 33.6px;
   font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 70px;
+  color: #4aae54;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .proj-card-wrapper {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .proj-card-wrapper > div {
   /* border: 1px solid blue; */

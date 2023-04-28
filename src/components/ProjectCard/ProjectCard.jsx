@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
-import Button from "../Button/Button.jsx";
+import {Button}from "../Button/Button.jsx";
 
 const ProjectCard = ({ img, head, des, stack, git, deploy }) => {
   return (
@@ -21,22 +21,9 @@ const ProjectCard = ({ img, head, des, stack, git, deploy }) => {
                 <p>{des}</p>
               </div>
               <div className="project-tech-stack">
-                <i
-                  style={{ fontSize: "50px" }}
-                  className="devicon-react-original colored"
-                ></i>
-                <i
-                  style={{ fontSize: "50px" }}
-                  className="devicon-redux-original colored"
-                ></i>
-                <i
-                  style={{ fontSize: "50px" }}
-                  className="devicon-mongodb-plain colored"
-                ></i>
-                <i
-                  style={{ fontSize: "50px" }}
-                  className="devicon-bootstrap-plain colored"
-                ></i>
+                {stack?.map((item) => {
+                  return <i style={{ fontSize: "60px" }} className={item}></i>
+                })}
               </div>
 
               <div className="deploy-links">

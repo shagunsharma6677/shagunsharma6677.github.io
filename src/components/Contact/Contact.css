@@ -22,12 +22,17 @@
   justify-content: space-around;
 }
 .contact-heading > h2 {
-  font-weight: 800;
-  line-height: 57.6px;
-  font-size: 48px;
+  text-align: center;
   color: #4aae54;
-  padding: 10px;
-  position: relative;
+  font-size: 26px;
+  line-height: 33.6px;
+  font-weight: 600;
+  font-size: 70px;
+  color: #4aae54;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .form {
@@ -120,10 +125,11 @@
 }
 .footer-getInTouch > p {
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 20px;
   font-weight: 600;
   color: white;
+  margin-bottom: 0;
 }
 .footer-madeWithLove {
   background-color: #222222;
@@ -134,9 +140,14 @@
   color: white;
 }
 
-.footer-getInTouch > div > p {
+.footer-getInTouch > div > p,
+.footer-getInTouch > div > a {
   color: grey;
   margin-bottom: 8px;
+}
+.footer-getInTouch > div > p:hover,
+.footer-getInTouch > div > a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1212px) {
@@ -151,12 +162,29 @@
   .form {
     width: 400px;
   }
+  .contact-heading > h2 {
+    font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
   .footer-links {
     width: 100%;
   }
+  .contact-heading > h2 {
+    font-size: 50px;
+  }
+  .form {
+    width: 80vw;
+    /* margin: 20px; */
+  }
+  .form > input {
+    width: 80vw;
+  }
+  .form > textarea {
+    width: 80vw;
+  }
+
   .contat-social {
     display: flex;
     flex-direction: column;
@@ -172,5 +200,11 @@
   .contat-social,
   .get-touch {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .contact-content {
+    padding: 10px;
   }
 }

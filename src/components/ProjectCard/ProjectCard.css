@@ -89,7 +89,7 @@
 @media only screen and (max-width: 1150px) {
   .proj-cont {
     flex-direction: column;
-    height: 700px;
+    height: max-content;
   }
   .project-wrapper {
     height: auto;

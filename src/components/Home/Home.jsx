@@ -1,19 +1,20 @@
 import React from "react";
 import "./Home.css";
-import Button from "../Button/Button";
+import {Button as ButtonNew} from "../Button/Button";
 import Sidebar from "../Sidebar/Sidebar";
 import Typewriter from "typewriter-effect";
-// import Fade from "react-reveal/Fade";
-// import Slide from "react-reveal/Slide";
 import img from "./picone2.png";
 import { Link } from "react-scroll";
-// import resume from "./Download/Shagun-Sharma-Resume.pdf";
+import { Button } from "@chakra-ui/react"
+import resume from "./Shagun-Sharma-Resume.pdf";
 
+import { Link as NavLink } from "@chakra-ui/react";
+// https://drive.google.com/uc?export=download&id=1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So
 const Home = () => {
   const redirect = () => {
     window.open(
       "https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link",
-      "_blank"
+      "_blank", "noreferrer"
     );
   };
 
@@ -57,32 +58,29 @@ const Home = () => {
                 this field.
               </p>
               <div className="home-buttons">
-                <button
-                  className="our-button"
-                  style={{ backgroundColor: "#222222", cursor: "pointer" }}
-                  id="resume-button-1"
-                  onClick={redirect}
-                >
-                  <a
-                    id="resume-link-1"
-                    className="nav-link resume"
-                    style={{ color: "white", cursor: "pointer" }}
-                    href="https://drive.google.com/file/d/1ZIGGq4BHxfpwr4wyQPB6QzfPtyfx22So/view?usp=share_link"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                <div className="nav-right ">
+                  <Button
+                    className="our-button"
+                    style={{ backgroundColor: "#222222", cursor: "pointer" }}
+                    id="resume-button-2"
+                    onClick={redirect}
                   >
-                    Resume
-                  </a>
-                </button>
+                    <NavLink href={resume} download id="resume-link-2" className="nav-link resume" >
+
+                      Resume
+
+                    </NavLink>
+                  </Button>
+                </div>
                 <div style={{ cursor: "pointer" }}>
                   <Link
-                    className="nav-link contact"
-                    to="contact"
+                    className="nav-link touch"
+                    to="touch"
                     smooth={true}
                     duration={500}
                     offset={200}
                   >
-                    <Button bg={false} title="Contact Me" />
+                    <ButtonNew bg={false} title="Contact Me" />
                   </Link>
                 </div>
               </div>
@@ -93,7 +91,7 @@ const Home = () => {
         <div className="home-right">
           <div className="h-right-wrapper">
             <img
-              
+
               className="profile-pic home-img"
               src="https://mspronesti.github.io/static/media/home.11d38661c5585fd9fd2858c3e4b20709.svg"
               alt=""

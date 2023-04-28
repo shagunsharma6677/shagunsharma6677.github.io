@@ -116,18 +116,18 @@ const Contact = () => {
 
         <HomeSvg dir="up"/>
 
-        <div className="footer-links">
+        <div id="touch" className="footer-links">
           <div className="footer-getInTouch">
             <h3>Get In Touch</h3>
             {/* <h4>You can reach out to me at</h4> */}
             <div className="p-tag">
-              <p> <i class="fa-regular fa-envelope"></i> shagunsharma6677@gmail.com</p>
+              <p id="contact-email"> <i class="fa-regular fa-envelope"></i> shagunsharma6677@gmail.com</p>
 
-              <p> <i class="fa-solid fa-phone"></i> +91-9760657327</p>
+              <p id="contact-phone"> <i class="fa-solid fa-phone"></i> +91-9760657327</p>
 
-              <p><i class="fa-brands fa-linkedin"></i> shagun-s-67</p>
+              <a href="https://www.linkedin.com/in/shagun-s67/" id="contact-linkedin"><i class="fa-brands fa-linkedin"></i> shagun-s-67</a>
 
-              <p><i class="fa-brands fa-github"></i> shagunsharma6677</p>
+              <a href="https://github.com/shagunsharma6677" id="contact-github"><i class="fa-brands fa-github"></i> shagunsharma6677</a>
             </div>
             <p>Created By Shagun Sharma | © 2023. All Rights Reserved</p>
           </div>
