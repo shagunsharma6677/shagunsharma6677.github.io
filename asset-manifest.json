@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.66c6dd70.css",
-    "main.js": "/static/js/main.fa309cf0.js",
+    "main.css": "/static/css/main.6aa340ea.css",
+    "main.js": "/static/js/main.8af9245f.js",
     "static/js/787.abf38d56.chunk.js": "/static/js/787.abf38d56.chunk.js",
     "static/media/picone2.png": "/static/media/picone2.c958e707c8da73aa66fc.png",
     "static/media/frenzy.jpeg": "/static/media/frenzy.9ba8ae59860e8956a9cf.jpeg",
@@ -20,12 +20,12 @@
     "static/media/wordpress.svg": "/static/media/wordpress.19efd7af1fafc38a53600387f0821d3d.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "static/media/vue-icon.svg": "/static/media/vue-icon.7219cc0384993fc067ee20c94a66b1e9.svg",
-    "main.66c6dd70.css.map": "/static/css/main.66c6dd70.css.map",
-    "main.fa309cf0.js.map": "/static/js/main.fa309cf0.js.map",
+    "main.6aa340ea.css.map": "/static/css/main.6aa340ea.css.map",
+    "main.8af9245f.js.map": "/static/js/main.8af9245f.js.map",
     "787.abf38d56.chunk.js.map": "/static/js/787.abf38d56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66c6dd70.css",
-    "static/js/main.fa309cf0.js"
+    "static/css/main.6aa340ea.css",
+    "static/js/main.8af9245f.js"
   ]
 }
