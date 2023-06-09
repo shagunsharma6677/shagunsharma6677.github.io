@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3cf1c26.css",
-    "main.js": "/static/js/main.5c39e6d7.js",
+    "main.css": "/static/css/main.f089c4d2.css",
+    "main.js": "/static/js/main.3bbac4c8.js",
     "static/js/787.abf38d56.chunk.js": "/static/js/787.abf38d56.chunk.js",
     "static/media/picone2.png": "/static/media/picone2.c958e707c8da73aa66fc.png",
     "static/media/frenzy.jpeg": "/static/media/frenzy.9ba8ae59860e8956a9cf.jpeg",
@@ -20,12 +20,12 @@
     "static/media/wordpress.svg": "/static/media/wordpress.19efd7af1fafc38a53600387f0821d3d.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "static/media/vue-icon.svg": "/static/media/vue-icon.7219cc0384993fc067ee20c94a66b1e9.svg",
-    "main.a3cf1c26.css.map": "/static/css/main.a3cf1c26.css.map",
-    "main.5c39e6d7.js.map": "/static/js/main.5c39e6d7.js.map",
+    "main.f089c4d2.css.map": "/static/css/main.f089c4d2.css.map",
+    "main.3bbac4c8.js.map": "/static/js/main.3bbac4c8.js.map",
     "787.abf38d56.chunk.js.map": "/static/js/787.abf38d56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cf1c26.css",
-    "static/js/main.5c39e6d7.js"
+    "static/css/main.f089c4d2.css",
+    "static/js/main.3bbac4c8.js"
   ]
 }
