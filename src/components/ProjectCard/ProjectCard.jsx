@@ -8,7 +8,7 @@ const ProjectCard = ({ img, head, des, stack, git, deploy }) => {
       <div className="project-wrapper project-card">
         <div className="proj-cont">
           <div className="proj-left">
-            <div className="proj-img-cont">
+            <div className="proj-img-cont glow">
               <img src={img} width={"200px"} alt="" />
             </div>
           </div>
@@ -17,22 +17,22 @@ const ProjectCard = ({ img, head, des, stack, git, deploy }) => {
               <h3>Featured Project</h3>
               <h1 className="project-title">{head}</h1>
 
-              <div className="proj-des project-description">
+              <div className="proj-des glow greenGlow project-description">
                 <p>{des}</p>
               </div>
               <div className="project-tech-stack">
                 {stack?.map((item) => {
-                  return <i style={{ fontSize: "60px" }} className={item}></i>
+                  return <i style={{ fontSize: "60px" }}  className={item}></i>
                 })}
               </div>
 
               <div className="deploy-links">
-                <div className="project-deployed-link">
+                <div className="project-deployed-link glow">
                   <a href={deploy} rel="noopener noreferrer"  target="_blank">
                     <Button bg={false} title="Deploy Link" />
                   </a>
                 </div>
-                <div className="project-github-link">
+                <div className="project-github-link glow">
                   <a href={git} rel="noopener noreferrer"  target="_blank">
                     <Button bg={false} title="Github" />
                   </a>

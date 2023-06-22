@@ -19,7 +19,7 @@
   flex-direction: row-reverse;
 }
 .about-heading > h2 {
-   text-align: center;
+  text-align: center;
   color: #4aae54;
   font-size: 28px;
   line-height: 33.6px;
@@ -30,13 +30,13 @@
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
+  
 }
 .about-l-r {
   display: flex;
 }
 .about-wrap-left {
   flex: 1;
- 
 }
 .about-wrap-right {
   max-width: 85%;
@@ -59,7 +59,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 
 .main-accordian {
   width: 80%;
@@ -209,6 +208,15 @@ input:checked + .accordion-label::after {
 input:checked ~ .accordion-content {
   max-height: 100vh;
   padding: 16px;
+}
+
+input:not(:checked) + .accordion-label::after {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+input:not(:checked) ~ .accordion-content {
+  max-height: 0;
+  padding: 0 16px;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -2,8 +2,9 @@
   /* border: 1px solid red; */
   padding: 10px;
   width: 100vw;
-  background-color: #222222;
+  /* background-color: #222222; */
   height: 500px;
+
 }
 .proj-cont {
   /* border: 1px solid blue; */
@@ -13,11 +14,16 @@
   height: 400px;
   z-index: 100;
   background-color: #222222;
+  /* background: rgb(104, 211, 114); */
+
 }
 .proj-left {
   width: 55%;
-  opacity: 0.6;
-  transition: all 0.5s ease;
+  opacity: 0.8;
+    display: flex;
+    align-items: center;
+  transition: all 0.7s ease;
+  z-index: 10;
 }
 .proj-left:hover {
   opacity: 10;
@@ -34,15 +40,15 @@
   background-color: transparent;
   text-align: right;
   width: 100%;
-  padding: 10px;
-  z-index: 5;
+  /* padding: 10px; */
+  z-index: 15;
 }
 .proj-right {
   width: 60%;
   display: flex;
   align-items: center;
   background-color: transparent;
-  z-index: 5;
+  z-index: 15;
   margin-left: -150px;
   padding: 10px;
 }

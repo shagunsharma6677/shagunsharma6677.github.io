@@ -16,6 +16,7 @@
 }
 #calendiv {
   margin: auto;
+
 }
 
 #skills > h2,
@@ -23,7 +24,7 @@
   text-align: center;
   color: #4aae54;
   font-size: 28px;
-  
+
   line-height: 60.6px;
 
   font-weight: 600;
@@ -33,7 +34,6 @@
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
-  
 }
 .skills-prog-cont > h2 {
   color: #4aae54;
@@ -71,8 +71,12 @@
   display: flex;
   justify-content: space-evenly;
 }
+.bg-img {
+  /* box-shadow: 0 0 25px rgb(104, 211, 114); */
+}
 .stat-img-div > img {
   width: 340px;
+  height: fit-content;
 
   z-index: 10;
   background-color: white;
@@ -104,6 +108,7 @@
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
     rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
   padding: 10px;
   text-align: center;
   color: #6e6e6e;
@@ -131,6 +136,9 @@
   background-color: white;
 }
 
+.react-activity-calendar {
+  padding: 10px 20px;
+}
 
 @media only screen and (max-width: 1330px) {
   body {

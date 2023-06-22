@@ -11,7 +11,7 @@ const Sidebar = () => {
         href="https://www.linkedin.com/in/shagun-s-84b0a6238/"
         rel="noopener noreferrer"
         target="_blank"
-        className="aTag1"
+        className="aTag1 glow"
       >
         <i
           style={{ fontSize: "30px", color: "#48B5F2" }}
@@ -23,7 +23,7 @@ const Sidebar = () => {
         href="https://github.com/shagunsharma6677"
         rel="noopener noreferrer"
         target="_blank"
-        className="aTag1"
+        className="aTag1 glow"
       >
         <i
           style={{ fontSize: "30px", color: "white" }}
@@ -35,7 +35,7 @@ const Sidebar = () => {
         href="https://api.whatsapp.com/send?phone=9760657327&text=Send20%a20%quote"
         rel="noopener noreferrer"
         target="_blank"
-        className="aTag1"
+        className="aTag1 glow"
       >
         <i
           style={{ fontSize: "30px", color: "#68D372" }}

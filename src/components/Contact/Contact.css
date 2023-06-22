@@ -13,6 +13,7 @@
   height: auto;
   padding-top: 50px;
 }
+
 .p-tag {
   display: flex;
   flex-wrap: wrap;
@@ -74,9 +75,6 @@
 .contact-img > img {
   width: 350px;
 }
-.our-button {
-  margin: auto;
-}
 
 .footer-links {
   /* border: 1px solid black; */
@@ -91,15 +89,6 @@
   margin-right: 10px;
 }
 
-.vertLine::after {
-  content: "";
-  width: 0;
-  height: 110px;
-  position: absolute;
-  border: solid #68d372;
-  left: 50%;
-  transform: translateY(-120px);
-}
 .footer-getInTouch {
   border: 1px solid black;
   width: 100%;
@@ -207,4 +196,54 @@
   .contact-content {
     padding: 10px;
   }
+}
+
+.horiLine::after {
+  content: "";
+  width: 0;
+  width: 170px;
+  position: absolute;
+  border: 3px solid #68d372;
+  left: 8%;
+  transform: translateY(23px);
+}
+
+.vertLine::after {
+  content: "";
+  width: 0;
+  height: 130px;
+  position: absolute;
+  border: 3px solid #68d372;
+  left: 50%;
+  transform: translateY(-145px);
+}
+
+.neons {
+  font-size: 25px;
+  height: 60px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Balsamiq Sans", cursive;
+  text-decoration: none;
+  color: hsl(97, 97%, 50%);
+  border: hsl(97, 97%, 50%) 3px solid;
+  background-color: transparent;
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(97, 97%, 50%), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 hsl(97, 97%, 50%), 0 0 0.5em 0 hsl(97, 97%, 50%);
+  transition: all 0.5s;
+  margin-left: 400px;
+}
+
+.neons:hover {
+  background-color: hsl(97, 97%, 50%);
+  color: #fff;
+}
+
+.neonDiv {
+  background-color: rgb(33, 32, 32);
+  height: 200px;
 }

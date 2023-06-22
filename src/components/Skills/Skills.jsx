@@ -18,73 +18,73 @@ const Skills = () => {
         <div className="skills-wrapper">
           <Fade left>
             <div className="skills-prog-cont">
-              <h2>Languages & Frameworks</h2>
+              <h2 className="">Languages & Frameworks</h2>
               <div className="skills-prog-div">
-                <div className="skills-card">
+                <div className="skills-card glow greenGlow bg-img">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-express-original colored skills-card-img"
                   ></i>
-                  <p className="skills-card-name">Express.js</p>
+                  <p className="skills-card-name ">Express.js</p>
                 </div>
 
-                <div className="skills-card">
+                <div className="skills-card glow greenGlow bg-img ">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-react-original colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">React.js</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-nodejs-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Node.js</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-javascript-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Javascript</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-css3-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Css</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-html5-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Html</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-mongodb-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Mongo Db</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-tailwindcss-original-wordmark colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Tailwind</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-redux-original colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Redux</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-typescript-plain colored skills-card-img"
@@ -101,42 +101,42 @@ const Skills = () => {
             <div className="skills-prog-cont">
               <h2>Technologies & Libraries</h2>
               <div className="skills-prog-div">
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-npm-original-wordmark colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Npm</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-git-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Git</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-babel-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Babel</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-heroku-original colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Heroku</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-materialui-plain colored skills-card-img"
                   ></i>
                   <p className="skills-card-name">Material UI</p>
                 </div>
-                <div className="skills-card">
+                <div className="skills-card greenGlow glow">
                   <i
                     style={{ fontSize: "55px" }}
                     className="devicon-bootstrap-plain colored skills-card-img"
@@ -169,7 +169,13 @@ const Skills = () => {
                     }}
                   >
                     <div
-                      style={{ marginBottom: "20px" }}
+                      style={{
+                        marginBottom: "20px",
+                        backgroundColor: "#151515",
+                        color: "white",
+                        zIndex: "30",
+                       
+                      }}
                       id="calendiv"
                     >
                       <GitHubCalendar username="shagunsharma6677" />
@@ -182,23 +188,26 @@ const Skills = () => {
                       <Fade left>
                         <img
                           id="github-streak-stats"
-                          src="https://github-readme-streak-stats.herokuapp.com/?user=shagunsharma6677"
+                          src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677&theme=dark&show_icons=true"
                           alt="streak"
+                          className="bg-img"
                         />
                       </Fade>
                       <Fade right>
                         <img
                           id="github-stats-card"
-                          src="https://github-readme-stats.vercel.app/api?username=shagunsharma6677"
+                          src="https://github-readme-streak-stats.herokuapp.com/?user=shagunsharma6677&theme=dark&hide_border=false"
                           alt=""
+                          className="bg-img"
                         />
                       </Fade>
 
                       <Fade left>
                         <img
                           id="github-top-langs"
-                          src="https://github-readme-stats.vercel.app/api/top-langs/?username=shagunsharma6677"
+                          src="https://github-readme-stats.vercel.app/api/top-langs/?username=shagunsharma6677&theme=dark&show_icons=true"
                           alt=""
+                          className="bg-img"
                         />
                       </Fade>
                     </div>

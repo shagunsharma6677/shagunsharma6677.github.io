@@ -12,6 +12,8 @@ const Contact = () => {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  const [state, setState] = useState(false);
+  const form = useRef();
 
   const handleToast = () => {
     toast("Mail Send Successfully...!!!", {
@@ -23,10 +25,6 @@ const Contact = () => {
       },
     });
   };
-
-  const [state, setState] = useState(false);
-
-  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -59,7 +57,10 @@ const Contact = () => {
 
         <div className="contact-heading">
           <Fade bottom>
-            <h2>Contact Me </h2>
+            {/* <div className="vertLine"></div> */}
+            {/* <div className="horiLine"></div> */}
+
+            <h2 className="cont-head-line">Contact Me </h2>
           </Fade>
         </div>
 
@@ -93,15 +94,19 @@ const Contact = () => {
                   onClick={handleToast}
                   type="submit"
                   value="send"
-                  style={{ backgroundColor: "#4aae54", cursor: "pointer", border: "1px solid black" }}
+                  style={{
+                    backgroundColor: "#4aae54",
+                    cursor: "pointer",
+                    border: "1px solid black",
+                  }}
                   className="our-button"
                 >
                   Send
                 </button>
-
               </form>
             </div>
           </Fade>
+
           <Fade right>
             <div className="contact-img">
               <img
@@ -114,20 +119,35 @@ const Contact = () => {
           </Fade>
         </div>
 
-        <HomeSvg dir="up"/>
+        {/* <div className="neonDiv">
+          <button className="neons">NeonBtn</button>
+        </div> */}
+        <HomeSvg dir="up" />
 
         <div id="touch" className="footer-links">
           <div className="footer-getInTouch">
             <h3>Get In Touch</h3>
-            {/* <h4>You can reach out to me at</h4> */}
             <div className="p-tag">
-              <p id="contact-email"> <i class="fa-regular fa-envelope"></i> shagunsharma6677@gmail.com</p>
+              <p id="contact-email">
+                {" "}
+                <i class="fa-regular fa-envelope"></i>{" "}
+                shagunsharma6677@gmail.com
+              </p>
+              <p id="contact-phone">
+                {" "}
+                <i class="fa-solid fa-phone"></i> +91-9760657327
+              </p>
 
-              <p id="contact-phone"> <i class="fa-solid fa-phone"></i> +91-9760657327</p>
+              <a
+                href="https://www.linkedin.com/in/shagun-s67/"
+                id="contact-linkedin"
+              >
+                <i class="fa-brands fa-linkedin"></i> shagun-s-67
+              </a>
 
-              <a href="https://www.linkedin.com/in/shagun-s67/" id="contact-linkedin"><i class="fa-brands fa-linkedin"></i> shagun-s-67</a>
-
-              <a href="https://github.com/shagunsharma6677" id="contact-github"><i class="fa-brands fa-github"></i> shagunsharma6677</a>
+              <a href="https://github.com/shagunsharma6677" id="contact-github">
+                <i class="fa-brands fa-github"></i> shagunsharma6677
+              </a>
             </div>
             <p>Created By Shagun Sharma | © 2023. All Rights Reserved</p>
           </div>

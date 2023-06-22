@@ -53,14 +53,12 @@ const Home = () => {
                 Hello, and welcome to my portfolio! My name is Shagun Sharma,
                 and I am a full-stack developer with a strong foundation &
                 passion for working with cutting-edge web development
-                technologies. With a focus on problem-solving and attention to
-                detail Shagun is committed to building a successful career in
-                this field.
+                technologies.
               </p>
               <div className="home-buttons">
                 <div className="nav-right ">
                   <Button
-                    className="our-button"
+                    className="our-button glow"
                     style={{ backgroundColor: "#222222", cursor: "pointer" }}
                     id="resume-button-2"
                     onClick={redirect}
@@ -74,7 +72,7 @@ const Home = () => {
                 </div>
                 <div style={{ cursor: "pointer" }}>
                   <Link
-                    className="nav-link touch"
+                    className="nav-link glow touch"
                     to="touch"
                     smooth={true}
                     duration={500}
